@@ -31,7 +31,7 @@ def analyse_help(node):
     while node:
         if isinstance(node.item, Symbol) and str(node.help) != "None":
             helpMsg = str(node.help)
-            helps[node.item.name] = helpMsg.replace("\n"," ")
+            helps[node.item.name] = helpMsg.replace("\n"," ").replace(";", ".")
 
 #            if "size" in helpMsg or "reduce" in helpMsg:
 #                print(helpMsg)
@@ -41,7 +41,7 @@ def analyse_help(node):
 
         node = node.next
 
-# Browing the kconf files to analyse them
+# Browsing the kconf files to analyse them
 for kfile in fileList:
     try:
         kconf = Kconfig(kfile)
@@ -53,6 +53,4 @@ for kfile in fileList:
 with open('helpMsgs.csv', 'w') as file:
     for key in helps.keys():
         file.write("%s;%s\n"%(key,helps[key]))
-
-
 
