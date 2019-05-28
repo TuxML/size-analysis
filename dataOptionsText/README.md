@@ -22,6 +22,7 @@ Commands that produced the results:
 `cat helpMsgs.csv | grep -Poi ".*(optim)+.*" > optim.csv`
 `cat helpMsgs.csv | grep -Poi ".*(overhead)+.*" > overhead.csv`
 `cat helpMsgs.csv | grep -Poi ".*(reduce)+.*" > reduce.csv`
+`cat helpMsgs.csv | grep -Poi ".*reduc.*" > reduc.csv`
 `cat helpMsgs.csv | grep -Poi ".*(small)+.*" > small.csv`
 `cat helpMsgs.csv | grep -Poi ".*(smaller)+.*" > smaller.csv`
 `cat helpMsgs.csv | grep -Poi ".*(space)+.*" | grep -vi "userspace" | grep -vi "user space" | grep -vi "user-space" | grep -vi "namespace" > space.csv`
