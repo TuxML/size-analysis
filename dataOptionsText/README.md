@@ -18,6 +18,7 @@ Commands that produced the results:
 `cat helpMsgs.csv | grep -Poi ".*(inlin)+.*" > inlin.csv`
 `cat helpMsgs.csv | grep -Poi ".*(larger)+.*" > larger.csv`
 `cat helpMsgs.csv | grep -Poi ".*(little)+.*" > little.csv`
+`cat helpMsgs.csv | grep -Poi ".*minim.*" > minim.csv`
 `cat helpMsgs.csv | grep -Poi ".*(optim)+.*" > optim.csv`
 `cat helpMsgs.csv | grep -Poi ".*(overhead)+.*" > overhead.csv`
 `cat helpMsgs.csv | grep -Poi ".*(reduce)+.*" > reduce.csv`
