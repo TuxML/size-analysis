@@ -31,7 +31,7 @@ def analyse_help(node):
     while node:
         if isinstance(node.item, Symbol) and str(node.help) != "None":
             helpMsg = str(node.help)
-            helps[node.item.name] = helpMsg.replace("\n"," ").replace(";", ".")
+            helps[node.item.name] = helpMsg.replace("\n"," ").replace(";", ".").replace('"', "")
 
 #            if "size" in helpMsg or "reduce" in helpMsg:
 #                print(helpMsg)
