@@ -36,6 +36,8 @@ Commands that produced the results:
 
 `cat helpMsgs.csv | grep -Poi ".*reduc.*" > reduc.csv`
 
+`cat helpMsgs.csv | grep -Poi ".*(save)+.*"`
+
 `cat helpMsgs.csv | grep -Poi ".*(small)+.*" > small.csv`
 
 `cat helpMsgs.csv | grep -Poi ".*(smaller)+.*" > smaller.csv`
@@ -43,3 +45,7 @@ Commands that produced the results:
 `cat helpMsgs.csv | grep -Poi ".*(space)+.*" | grep -vi "userspace" | grep -vi "user space" | grep -vi "user-space" | grep -vi "namespace" > space.csv`
 
 `cat helpMsgs.csv | grep -Poi ".*(trim)+.*" > trim.csv`
+
+`cat helpMsgs.csv | grep -Poi ".*[0-9]+( )*(k|K|m|M|G|g).*"`
+
+`cat helpMsgs.csv | grep -Poi ".*[0-9]+( )*(%).*"`
