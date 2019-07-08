@@ -7,9 +7,12 @@
 import pandas as pd
 import json
 
+print ("Starting...")
 with open("option_columns.json","r") as f:
     option_columns = json.load(f)
 
+print ("(end JSON")
+print ("loading CSV")
 #Find the dataset
 df = pd.read_csv("dataset_encoded_size.csv", dtype={k:"int8" for k in option_columns})
 
@@ -17,6 +20,7 @@ df.query("cid >= 30000", inplace=True)
 df.fillna(-1, inplace=True)
 df.query("kernel_size >= 0", inplace=True)
 
+print("done for CSV")
 
 # In[23]:
 
@@ -45,23 +49,23 @@ for o in options_about_size:
     i = i + 1
         
     
-
+print (options_distr)
 
 # In[48]:
 
 
 # TODO: you can plot the whole (20 here)
-import matplotlib.pyplot as plt
-fig = plt.figure()
-ax = options_distr[:20].plot.bar(figsize=(20, 10))
-ax.set_xticklabels(options_distr['option'].values)
-plt.show()
+#import matplotlib.pyplot as plt
+#fig = plt.figure()
+#ax = options_distr[:20].plot.bar(figsize=(20, 10))
+#ax.set_xticklabels(options_distr['option'].values)
+#plt.show()
 
 
 # In[49]:
 
 
-options_distr
+#options_distr
 
 
 # In[ ]:
