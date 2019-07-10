@@ -44,3 +44,5 @@ RUN cd /tmp && \
     \
     apk del .build-dependencies && \
     rm -rf /tmp/*
+
+RUN apk add git
