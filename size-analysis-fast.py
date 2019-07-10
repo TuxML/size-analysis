@@ -93,8 +93,7 @@ compareCompress("-vmlinux").style.set_caption('Difference (average in percentage
 
 
 cm = sns.light_palette("green", as_cmap=True)
-pd.DataFrame.corr(df[size_methods]).style.set_caption('Correlations between size measures').background_gradient(cmap=cm)
-
+print(pd.DataFrame.corr(df[size_methods]).style.set_caption('Correlations between size measures').background_gradient(cmap=cm))
 
 # In[ ]:
 
