@@ -54,3 +54,4 @@ RUN ln -s /usr/include/locale.h /usr/include/xlocale.h
 RUN pip install matplotlib seaborn Jinja2
 RUN git clone https://github.com/TuxML/size-analysis
 COPY all_size_withyes.pkl size-analysis/
+WORKDIR "size-analysis"
