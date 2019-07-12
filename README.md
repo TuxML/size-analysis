@@ -26,6 +26,8 @@ Finally, you can use the script: always in the kernel directory `linux-4.13.3`, 
 `docker build -f docker/Dockerfile -t sklearntux .` (it can take a while)
 or simply `docker pull macher/sklearntux` 
 
+`docker run -it --rm macher/sklearntux python3 size-analysis-fast.py` should work 
+
 Notes: 
  * there is a `all_size_withyes.pkl` pre-copied (it is a .pkl of the dataset) -- it can a CSV file as well 
  * plotting facilities are installed (matplotlib, seaborn, etc.) partly explaining the increase in size of the Docker image 
