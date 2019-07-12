@@ -8,7 +8,7 @@ RUN apk add --no-cache \
     \
     ln -s locale.h /usr/include/xlocale.h && \
     \
-    pip install numpy && \
+    pip install numpy==1.14.3 && \
     pip install pandas && \
     pip install scipy && \
     pip install scikit-learn && \
@@ -46,3 +46,11 @@ RUN cd /tmp && \
     rm -rf /tmp/*
 
 RUN apk add git
+RUN apk --no-cache --update-cache add freetype-dev libpng-dev openblas-dev
+RUN apk --no-cache --update-cache add build-base
+RUN apk --no-cache --update-cache add python3-dev
+RUN ln -s /usr/include/locale.h /usr/include/xlocale.h
+
+RUN pip install matplotlib seaborn Jinja2
+RUN git clone https://github.com/TuxML/size-analysis
+COPY all_size_withyes.pkl size-analysis/
