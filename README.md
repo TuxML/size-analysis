@@ -23,12 +23,11 @@ Finally, you can use the script: always in the kernel directory `linux-4.13.3`, 
  
 ## Docker image 
 
-see docker/Dockerfile (it can take a while)
-then:
- * apk add git 
- * git clone https://github.com/TuxML/size-analysis
- * cd size-analysis
- * wget http://37.187.140.181/tuxml_dataset/dataset_encoded_size.csv
- * python feature_frequency.py 
-note: I will improve many parts, and you need to set the space/swap of Docker ;) 
+`docker build -f docker/Dockerfile -t sklearntux .` (it can take a while)
+or simply `docker pull macher/sklearntux` 
+
+Notes: 
+ * there is a `all_size_withyes.pkl` pre-copied (it is a .pkl of the dataset) -- it can a CSV file as well 
+ * plotting facilities are installed (matplotlib, seaborn, etc.) partly explaining the increase in size of the Docker image 
+
 
