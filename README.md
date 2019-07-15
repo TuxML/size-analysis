@@ -1,10 +1,14 @@
 # Analysis of 125+ Linux configurations (this time for predicting/understanding kernel sizes) 
- * git clone https://github.com/TuxML/size-analysis/
- * git clone https://gitlab.com/FAMILIAR-project/tuxml-size-analysis-datasets/
- * then you can use `tuxml.py` to load a pre-encoded dataset (it returns a pandas dataframe)
-   * note: the datatset is loaded here: `../tuxml-size-analysis-datasets/all_size_withyes.pkl` so be careful about relative paths and your git repo locations 
-   * an example is given with `size-analysis-fast.ipynb`
- 
+
+ * git clone https://github.com/TuxML/size-analysis/ (to get `tuxml.py`)
+ * git clone https://gitlab.com/FAMILIAR-project/tuxml-size-analysis-datasets/ (to get datasets)
+ * then you can use `tuxml.py` to load a pre-encoded dataset (it returns a pandas dataframe): 
+```
+import tuxml
+df = tuxml.load_dataset()
+```
+An example is given with `size-analysis-fast.ipynb`
+Note: the datatset is loaded here: `../tuxml-size-analysis-datasets/all_size_withyes.pkl` so be careful about relative paths and your git repo locations 
 
 ## HOW TO analyse_kconfig_help_msg.py 
 
