@@ -53,6 +53,19 @@ def get_params():
     hyperparams_list = {
 
     }
+    
+    if os.path.isfile('./config/config.json'):
+        with open("./config/config.json","r") as f:
+            data = json.load(f)
+            for i in data:
+                if i in params:
+                    params[i] = data[i]
+                elif i in possible_hyperparams:
+                    if type(data[i]) == list:
+                        hyperparams_list[i] = data[i]
+                    else:
+                        hyperparams[i] = data[i]
+                    
 
     #Get input params
     for k,v in enumerate(sys.argv):

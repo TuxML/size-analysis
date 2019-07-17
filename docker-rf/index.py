@@ -10,6 +10,9 @@ params, hyperparams_list = get_params()
 
 configs = get_possible_configurations(hyperparams_list)
 
+print(params)
+print(hyperparams_list)
+
 df = load_dataset(params["nb_yes"])
 params["dataset"] = df
 
