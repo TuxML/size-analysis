@@ -1,0 +1,6 @@
+{
+    "max_depth":[19,21,22,23],
+    "nbFolds":5,
+    "n_estimators":10,
+    "min_samples_leaf":[1,4,8,10]
+}
