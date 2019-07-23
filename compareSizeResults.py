@@ -31,7 +31,7 @@ def getDocumentation(node):
             if str(node.help) == "None":
                 helps[node.item.name] = ""
             else:
-                helps[node.item.name] = str(node.help)
+                helps[node.item.name] = str(node.help).replace("\n"," ").replace(";", ".").replace('"', "")
 
         if node.list:
             getDocumentation(node.list)
@@ -47,10 +47,14 @@ def produceOptionDocURL(option):
 # write the results of the analysis in a file
 # options: the list of options to write
 # filename: the filename to use
-def writeResultsInFile(options, filename):
+def writeResultsInFile(options, filename, withDoc):
+    global helps
     with open(filename, 'w') as file:
         for opt in options:
-            file.write("%s,%s\n"%(opt, produceOptionDocURL(opt)))
+            if withDoc and opt in helps:
+                file.write("%s,%s,%s\n"%(opt, produceOptionDocURL(opt), '"' + helps[opt] + '"'))
+            else:
+                file.write("%s,%s\n"%(opt, produceOptionDocURL(opt)))
 
 # Reading the options manually spotted
 manualOptionsFile = open("optionsRelatedToSize.txt","r")
@@ -78,6 +82,6 @@ optionsInAutoOnlyWithoutDoc = list(filter(lambda opt: opt in helps and len(helps
 optionsInAutoOnlyWithDoc = list(filter(lambda opt: opt in helps and len(helps[opt]) > 0, optionsInAutoOnly))
 
 # Writing the results
-writeResultsInFile(optionsInBoth, 'optionsInBoth.csv')
-writeResultsInFile(optionsInAutoOnlyWithoutDoc, 'optionsInAutoOnlyWithoutDoc.csv')
-writeResultsInFile(optionsInAutoOnlyWithDoc, 'optionsInAutoOnlyWithDoc.csv')
+writeResultsInFile(optionsInBoth, 'optionsInBoth.csv', False)
+writeResultsInFile(optionsInAutoOnlyWithoutDoc, 'optionsInAutoOnlyWithoutDoc.csv', False)
+writeResultsInFile(optionsInAutoOnlyWithDoc, 'optionsInAutoOnlyWithDoc.csv', True)
