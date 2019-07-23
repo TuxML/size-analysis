@@ -22,6 +22,7 @@ nbRowsToAnalyse = int(sys.argv[2])
 baseurloption = "https://cateee.net/lkddb/web-lkddb/"
 endurloption = ".html"
 
+
 # Extracts the documentation from Kconfig
 def getDocumentation(node):
     global kconf
@@ -55,7 +56,7 @@ manualOptionsFile = open("optionsRelatedToSize.txt","r")
 manualOptionsLines = manualOptionsFile.read().splitlines()
 manualOptionsFile.close()
 
-autoOptionsLists = pd.read_csv("feature_importance.csv", nrows=nbRowsToAnalyse, usecols=[0]).values.tolist() # index_col=0, sep=',', dtype={0: str}, squeeze=True)
+autoOptionsLists = pd.read_csv("feature_importanceRF.csv", nrows=nbRowsToAnalyse, usecols=[0]).values.tolist() # index_col=0, sep=',', dtype={0: str}, squeeze=True)
 autoOptions = list(itertools.chain.from_iterable(autoOptionsLists))
 
 optionsInBoth = list(filter(lambda opt: opt in autoOptions, manualOptionsLines))
