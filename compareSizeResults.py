@@ -48,13 +48,16 @@ def produceOptionDocURL(option):
 # options: the list of options to write
 # filename: the filename to use
 # withDoc: whether the kernel doc must be included
-# computeRankingOption: a lambda to execute. Format: opt => None or a string
-def writeResultsInFile(options, filename, withDoc, computeRankingOption):
+# lam: a lambda to execute. Format: opt => None or a string
+def writeResultsInFile(options, filename, withDoc, lam, lastColName):
     global helps
+
     with open(filename, 'w') as file:
+        file.write("option,url,%s,%s\n"%((lastColName if lastColName else ""), ("doc" if withDoc else "")))
+        
         for opt in options:
             doc = helps[opt] if withDoc and opt in helps else ""
-            value = computeRankingOption(opt) if computeRankingOption != None and computeRankingOption(opt) != None else ""
+            value = lam(opt) if lam != None and lam(opt) != None else ""
 
             file.write("%s,%s,%s,%s\n"%(opt, produceOptionDocURL(opt), value, '"' + doc + '"'))
 
@@ -86,11 +89,10 @@ optionsInBoth = list(filter(lambda opt: opt in autoOptions, manualOptionsLines))
 optionsInManualOnly = list(filter(lambda opt: not (opt in autoOptions), manualOptionsLines))
 # Computing the options not present in the optionsRelatedToSize list
 optionsInAutoOnly = list(filter(lambda opt: not (opt in manualOptionsLines), autoOptions))
-# Computing the options not present in the feature_importance list but present in the kernel
-optionsKernelNotInAuto = list(filter(lambda opt: not (opt in autoOptions), helps.keys()))
-
 # Extracting the documentation from the kernel
 getDocumentation(kconf.top_node)
+# Computing the options not present in the feature_importance list but present in the kernel
+optionsKernelNotInAuto = list(filter(lambda opt: not (opt in autoOptionsDict.keys()), helps.keys()))
 
 # Computing the options of `feature_importance`, not present in `optionsRelatedToSize`, that do not have documentation
 optionsInAutoOnlyWithoutDoc = list(filter(lambda opt: opt in helps and len(helps[opt]) == 0, optionsInAutoOnly))
@@ -98,8 +100,8 @@ optionsInAutoOnlyWithoutDoc = list(filter(lambda opt: opt in helps and len(helps
 optionsInAutoOnlyWithDoc = list(filter(lambda opt: opt in helps and len(helps[opt]) > 0, optionsInAutoOnly))
 
 # Writing the results
-writeResultsInFile(optionsInBoth, 'optionsInBoth.csv', False, lambda opt: str(autoOptionsDict[opt]['ranking']) if opt in autoOptionsDict else None)
-writeResultsInFile(optionsInManualOnly, 'optionsInManualOnly.csv', False, lambda opt: "NotUsed" if opt in freqDict and freqDict[opt]['no'] == '0' else "Used")
-writeResultsInFile(optionsInAutoOnlyWithoutDoc, 'optionsInAutoOnlyWithoutDoc.csv', False, lambda opt: None)
-writeResultsInFile(optionsInAutoOnlyWithDoc, 'optionsInAutoOnlyWithDoc.csv', True, lambda opt: None)
-writeResultsInFile(optionsKernelNotInAuto, 'optionsKernelNotInAuto.csv', True, lambda opt: None)
+writeResultsInFile(optionsInBoth, 'optionsInBoth.csv', False, lambda opt: str(autoOptionsDict[opt]['ranking']) if opt in autoOptionsDict else None, "Ranking")
+writeResultsInFile(optionsInManualOnly, 'optionsInManualOnly.csv', False, lambda opt: "NotUsed" if opt in freqDict and freqDict[opt]['no'] == '0' else "Used", "Used")
+writeResultsInFile(optionsInAutoOnlyWithoutDoc, 'optionsInAutoOnlyWithoutDoc.csv', False, lambda opt: None, None)
+writeResultsInFile(optionsInAutoOnlyWithDoc, 'optionsInAutoOnlyWithDoc.csv', True, lambda opt: None, None)
+writeResultsInFile(optionsKernelNotInAuto, 'optionsKernelNotInAuto.csv', False, lambda opt: None, None)
