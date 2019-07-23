@@ -77,6 +77,8 @@ idx = [i for i in range(1, len(autoOptionsDataFrame) + 1)]
 autoOptionsDataFrame['ranking'] = idx
 # transforming the data frame into a dict
 autoOptionsDict = autoOptionsDataFrame.to_dict('index')
+# Reading the option frequency (how mush an option is used in the builds)
+freqDict = pd.read_csv("options_frequencydataset_wrt_linuxdoc.csv", sep=',', names=["id", "option", "no", "yes", "module"], index_col=1).to_dict('index')
 
 # Computing the options spotted by both
 optionsInBoth = list(filter(lambda opt: opt in autoOptions, manualOptionsLines))
@@ -97,6 +99,7 @@ optionsInAutoOnlyWithDoc = list(filter(lambda opt: opt in helps and len(helps[op
 
 # Writing the results
 writeResultsInFile(optionsInBoth, 'optionsInBoth.csv', False, lambda opt: str(autoOptionsDict[opt]['ranking']) if opt in autoOptionsDict else None)
+writeResultsInFile(optionsInManualOnly, 'optionsInManualOnly.csv', False, lambda opt: "NotUsed" if opt in freqDict and freqDict[opt]['no'] == '0' else "Used")
 writeResultsInFile(optionsInAutoOnlyWithoutDoc, 'optionsInAutoOnlyWithoutDoc.csv', False, lambda opt: None)
 writeResultsInFile(optionsInAutoOnlyWithDoc, 'optionsInAutoOnlyWithDoc.csv', True, lambda opt: None)
 writeResultsInFile(optionsKernelNotInAuto, 'optionsKernelNotInAuto.csv', True, lambda opt: None)
