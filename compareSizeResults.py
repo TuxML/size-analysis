@@ -49,7 +49,7 @@ def produceOptionDocURL(option):
 def writeResultsInFile(options, filename):
     with open(filename, 'w') as file:
         for opt in options:
-            file.write("%s;%s\n"%(opt, produceOptionDocURL(opt)))
+            file.write("%s,%s\n"%(opt, produceOptionDocURL(opt)))
 
 
 manualOptionsFile = open("optionsRelatedToSize.txt","r")

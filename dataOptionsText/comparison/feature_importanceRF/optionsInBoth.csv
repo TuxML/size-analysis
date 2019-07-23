@@ -1,7 +1,7 @@
-DEBUG_INFO_REDUCED;https://cateee.net/lkddb/web-lkddb/DEBUG_INFO_REDUCED.html
-DEBUG_INFO_SPLIT;https://cateee.net/lkddb/web-lkddb/DEBUG_INFO_SPLIT.html
-FAT_FS;https://cateee.net/lkddb/web-lkddb/FAT_FS.html
-GCOV_PROFILE_ALL;https://cateee.net/lkddb/web-lkddb/GCOV_PROFILE_ALL.html
-KASAN_OUTLINE;https://cateee.net/lkddb/web-lkddb/KASAN_OUTLINE.html
-UBSAN_SANITIZE_ALL;https://cateee.net/lkddb/web-lkddb/UBSAN_SANITIZE_ALL.html
-XFS_DEBUG;https://cateee.net/lkddb/web-lkddb/XFS_DEBUG.html
+DEBUG_INFO_REDUCED,https://cateee.net/lkddb/web-lkddb/DEBUG_INFO_REDUCED.html
+DEBUG_INFO_SPLIT,https://cateee.net/lkddb/web-lkddb/DEBUG_INFO_SPLIT.html
+FAT_FS,https://cateee.net/lkddb/web-lkddb/FAT_FS.html
+GCOV_PROFILE_ALL,https://cateee.net/lkddb/web-lkddb/GCOV_PROFILE_ALL.html
+KASAN_OUTLINE,https://cateee.net/lkddb/web-lkddb/KASAN_OUTLINE.html
+UBSAN_SANITIZE_ALL,https://cateee.net/lkddb/web-lkddb/UBSAN_SANITIZE_ALL.html
+XFS_DEBUG,https://cateee.net/lkddb/web-lkddb/XFS_DEBUG.html
