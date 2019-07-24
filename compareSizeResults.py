@@ -67,7 +67,7 @@ manualOptionsLines = manualOptionsFile.read().splitlines()
 manualOptionsFile.close()
 
 # Reading the `nbRowsToAnalyse` first options automatically spotted (options name only)
-autoOptionsLists = pd.read_csv("feature_importanceRF.csv", nrows=nbRowsToAnalyse, usecols=[0]).values.tolist()
+autoOptionsLists = pd.read_csv("feature_importanceRF.csv", header=None, usecols=[0]).values.tolist()
 # flatting the list of lists
 autoOptions = list(itertools.chain.from_iterable(autoOptionsLists))
 
