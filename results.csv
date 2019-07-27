@@ -6,75 +6,75 @@
        'MICROCODE_AMD', 'ISDN_DRV_HISAX', 'CHARGER_BQ24190', 'SND_SOC_NAU8825',
        'BH1750', 'NETWORK_FILESYSTEMS', 'nbyes', 'nbno', 'nbmodule',
        'nbyesmodule'],
-      dtype='object', length=9239)","LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None, normalize=False)",vmlinux,"['nbyes', 'nbno', 'nbmodule', 'nbyesmodule']",0.1,"nbno                             1.349465e+16
-nbyesmodule                      7.111154e+15
-nbmodule                         6.383499e+15
-nbyes                            6.377726e+15
-TEXTSEARCH_FSM                   6.562451e+13
-TEXTSEARCH_BM                    5.407952e+13
-INET                             1.233295e+13
-SYS_HYPERVISOR                   9.826824e+12
-SND_SOC_WM1250_EV1               8.820580e+12
-GENERIC_BUG_RELATIVE_POINTERS    8.417269e+12
-BLOCK                            8.365187e+12
-REGMAP_AC97                      8.160910e+12
-SMP                              8.050105e+12
-SCSI                             7.807541e+12
-USB_ISP1760_DUAL_ROLE            7.767931e+12
-SND_HDA_EXT_CORE                 7.731228e+12
-IOSCHED_NOOP                     7.689839e+12
-NET                              7.661945e+12
-SPI_INTEL_SPI                    7.560724e+12
-FTRACE_MCOUNT_RECORD             7.271305e+12
-LOCKD                            7.193909e+12
-USB_ISP1760_GADGET_ROLE          7.175417e+12
-B43_BCMA_PIO                     7.101633e+12
-RCU_NEED_SEGCBLIST               7.081702e+12
-FB_FOREIGN_ENDIAN                7.073430e+12
-B43LEGACY_DMA                    7.073288e+12
-RFS_ACCEL                        7.072196e+12
-REGMAP_I2C                       7.015672e+12
-MEMORY_HOTPLUG_SPARSE            7.007983e+12
-VFIO                             6.989888e+12
+      dtype='object', length=9239)","LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None, normalize=False)",vmlinux,"['nbyes', 'nbno', 'nbmodule', 'nbyesmodule']",0.99,"DEBUG_INFO                       1.354154e+07
+GDB_SCRIPTS                      6.995359e+06
+RANDOMIZE_BASE                   6.894689e+06
+X86_NEED_RELOCS                  6.894689e+06
+UBSAN_SANITIZE_ALL               6.300613e+06
+GCOV_PROFILE_ALL                 5.672647e+06
+DEBUG_INFO_DWARF4                5.310880e+06
+KASAN                            5.037646e+06
+KASAN_OUTLINE                    5.037646e+06
+GENERIC_ADC_BATTERY              4.326654e+06
+SERIO_PCIPS2                     4.081789e+06
+SENSORS_F71805F                  4.039887e+06
+HID_SPEEDLINK                    3.823035e+06
+NLS_ASCII                        3.789439e+06
+MFD_SM501                        3.727494e+06
+SERIAL_UARTLITE_CONSOLE          3.503430e+06
+INPUT_LEDS                       3.476945e+06
+BACKLIGHT_SAHARA                 3.425797e+06
+DS1803                           3.382330e+06
+DHT11                            3.352649e+06
+FB_3DFX_ACCEL                    3.332844e+06
+GPIO_TPS65086                    3.299912e+06
+LEDS_BLINKM                      3.267794e+06
+X25                              3.230079e+06
+FIRMWARE_MEMMAP                  3.207259e+06
+GOLDFISH_PIPE                    3.205376e+06
+MTD_PHRAM                        3.194512e+06
+SENSORS_VT1211                   3.172804e+06
+AB3100_CORE                      3.170666e+06
+FB_AUO_K1901                     3.140456e+06
                                      ...     
-DEFAULT_NOOP                     2.254388e+11
-DEFAULT_DEADLINE                 2.254379e+11
-SAMPLE_KOBJECT                   2.192199e+11
-LTE_GDM724X                      1.758171e+11
-SPI_LOOPBACK_TEST                1.635216e+11
-MTD_TESTS                        1.331482e+11
-DEFAULT_BBR                      1.195026e+11
-DEFAULT_VENO                     1.195012e+11
-DEFAULT_BIC                      1.195006e+11
-DEFAULT_WESTWOOD                 1.194998e+11
-DEFAULT_VEGAS                    1.194994e+11
-DEFAULT_HTCP                     1.194984e+11
-DEFAULT_HYBLA                    1.194979e+11
-DEFAULT_CDG                      1.194970e+11
-DEFAULT_DCTCP                    1.194940e+11
-DEFAULT_RENO                     1.194915e+11
-LNET_XPRT_IB                     5.584199e+10
-VIDEO_IMX                        3.333109e+10
-DEBUG_KMEMLEAK_TEST              2.834713e-08
-PCMCIA_FDOMAIN                   2.188608e-08
-CRYPTO_TEST                      1.839362e-08
-PCMCIA_QLOGIC                    1.664739e-08
-PCMCIA_AHA152X                   9.589712e-09
-VHOST_SCSI                       9.313226e-09
-RTLLIB_CRYPTO_CCMP               8.381903e-09
-RTL8192U                         5.587935e-09
-PCMCIA_SYM53C500                 4.190952e-09
-TEST_KASAN                       4.190952e-09
-DSCC4                            2.328306e-09
-RTLLIB                           1.862645e-09
-Length: 9231, dtype: float64","count      9248.000000
-mean         75.956215
-std        2027.506356
-min           0.021683
-25%          19.815429
-50%          42.497245
-75%          77.366083
-max      194981.291117
+IWLDVM                           2.441219e+03
+INPUT_WM831X_ON                  2.401628e+03
+SND_SOC_WM0010                   2.288991e+03
+NETFILTER_XT_TARGET_NOTRACK      2.098209e+03
+CRC16                            1.910418e+03
+SCSI_BFA_FC                      1.739397e+03
+LIBERTAS_SPI                     1.641865e+03
+CLK_TWL6040                      1.546182e+03
+I2C_ISCH                         1.478028e+03
+USB_GSPCA_SQ905C                 1.347118e+03
+XEN_ACPI                         1.082149e+03
+OMAP3_THERMAL                    1.079821e+03
+SPI_SH_MSIOF                     9.730384e+02
+MFD_EXYNOS_LPASS                 9.730143e+02
+FB_ARC                           8.999086e+02
+BMG160_I2C                       8.952176e+02
+AGP                              8.617748e+02
+DVB_USB_DIBUSB_MC                8.595851e+02
+NF_CONNTRACK_FTP                 8.024939e+02
+SCSI_IMM                         7.498242e+02
+VIDEO_CX231XX                    6.942950e+02
+SND_SOC_TPA6130A2                5.311989e+02
+COMEDI_USBDUX                    4.044990e+02
+DVB_CXD2099                      3.746990e+02
+TULIP                            3.713443e+02
+TOUCHSCREEN_SUR40                2.487453e+02
+CIFS_DEBUG2                      3.509218e+01
+MMIOTRACE_TEST                   4.311750e+00
+VIDEO_EXYNOS4_ISP_DMA_CAPTURE    3.045312e+00
+PERCPU_TEST                      6.916031e-01
+Length: 9165, dtype: float64","count    91547.000000
+mean        95.035678
+std         84.355871
+min          0.004367
+25%         33.413373
+50%         71.144068
+75%        133.122801
+max        795.423014
 Name: % error, dtype: float64"
 1,LinearRegression,False,RandomForest,"Index(['DEBUG_INFO', 'nbyes', 'DEBUG_INFO_REDUCED', 'DEBUG_INFO_SPLIT',
        'X86_NEED_RELOCS', 'RANDOMIZE_BASE', 'UBSAN_SANITIZE_ALL',
@@ -99,75 +99,75 @@ Name: % error, dtype: float64"
        'NET_VENDOR_CHELSIO', 'RTS5208', 'XPS', 'NVME_CORE', 'CHELSIO_T1',
        'XFRM', 'SBITMAP', 'STP', 'FB_NEOMAGIC', 'DRM_I915_USERPTR',
        'FB_RIVA_I2C', 'BLK_SCSI_REQUEST', 'GPIO_SCH311X'],
-      dtype='object')","LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None, normalize=False)",vmlinux,"['nbyes', 'nbno', 'nbmodule', 'nbyesmodule']",0.1,"nbno                               8.121188e+15
-nbyesmodule                        8.121188e+15
-X86_NEED_RELOCS                    7.458583e+12
-RANDOMIZE_BASE                     7.458543e+12
-KASAN                              5.403391e+12
-KASAN_OUTLINE                      5.403370e+12
-DEBUG_INFO                         2.456585e+08
-DEBUG_INFO_SPLIT                   1.348908e+08
-DEBUG_INFO_REDUCED                 1.231724e+08
-UBSAN_SANITIZE_ALL                 4.705477e+07
-GCOV_PROFILE_ALL                   2.570017e+07
-XFS_DEBUG                          9.001449e+06
-X86_VSMP                           5.464440e+06
-UBSAN_ALIGNMENT                    4.027343e+06
-NET_UDP_TUNNEL                     4.015031e+06
-XFS_FS                             3.891331e+06
-DRM_AMDGPU                         3.762552e+06
-CNIC                               3.667721e+06
-MAXSMP                             3.566839e+06
-DRM_RADEON                         3.559738e+06
-KCOV_INSTRUMENT_ALL                3.340789e+06
-DRM_NOUVEAU                        3.238114e+06
-KALLSYMS_ABSOLUTE_PERCPU           3.026503e+06
-MISDN_IPAC                         2.850157e+06
-NET_VENDOR_MELLANOX                2.777015e+06
-MLX4_EN                            2.701103e+06
-DRM_I915                           2.475991e+06
-MLX5_CORE                          2.460299e+06
-WEXT_SPY                           2.453087e+06
-NET_VENDOR_DEC                     1.898590e+06
+      dtype='object')","LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None, normalize=False)",vmlinux,"['nbyes', 'nbno', 'nbmodule', 'nbyesmodule']",0.99,"nbno                               3.710936e+15
+nbyesmodule                        3.710936e+15
+RANDOMIZE_BASE                     2.918657e+13
+X86_NEED_RELOCS                    2.918652e+13
+KASAN_OUTLINE                      1.270259e+13
+KASAN                              1.270257e+13
+DEBUG_INFO                         2.444838e+08
+DEBUG_INFO_SPLIT                   1.427830e+08
+DEBUG_INFO_REDUCED                 1.090139e+08
+UBSAN_SANITIZE_ALL                 5.931828e+07
+RANDOMIZE_MEMORY                   2.889592e+07
+GCOV_PROFILE_ALL                   1.900483e+07
+SG_POOL                            1.534864e+07
+DRM_HISI_HIBMC                     1.454220e+07
+DELL_WMI                           1.442985e+07
+MLX4_EN                            1.418599e+07
+DRM_RADEON_USERPTR                 1.418018e+07
+NET_VENDOR_CHELSIO                 1.331213e+07
+MDIO                               1.288597e+07
+MLX5_CORE                          1.286660e+07
+BLK_SCSI_REQUEST                   1.112380e+07
+CNIC                               1.073279e+07
+XFS_DEBUG                          1.057968e+07
+DRM_I915_SW_FENCE_DEBUG_OBJECTS    1.027334e+07
+KCOV_INSTRUMENT_ALL                1.002354e+07
+SKFP                               9.194496e+06
+STP                                8.473982e+06
+DRM_QXL                            8.156935e+06
+DRM_GMA500                         8.071672e+06
+ARCNET_1051                        7.958840e+06
                                        ...     
-ARCNET_1051                        5.487032e+05
-INTEL_GTT                          5.441168e+05
-XPS                                5.370445e+05
-BLK_MQ_VIRTIO                      5.297810e+05
-DRM_VMWGFX                         5.175281e+05
-MDIO                               4.995701e+05
-FB_NEOMAGIC                        4.936606e+05
-MDIO_THUNDER                       4.507197e+05
-VMWARE_VMCI                        4.457548e+05
-NET_VENDOR_OKI                     4.455838e+05
-MPLS_ROUTING                       4.261981e+05
-SSB_DRIVER_PCICORE                 4.153648e+05
-DRM_AMDGPU_CIK                     4.119144e+05
-AMD_PHY                            3.765610e+05
-NET_VENDOR_MARVELL                 3.738449e+05
-FAT_FS                             3.641348e+05
-HID_PICOLCD_LEDS                   3.616120e+05
-DRM_VM                             3.543532e+05
-RANDOMIZE_MEMORY                   3.278429e+05
-DRM_I915_USERPTR                   2.863124e+05
-GPIO_SCH311X                       2.109568e+05
-FB_IMSTT                           1.782135e+05
-DRM_I915_SW_FENCE_DEBUG_OBJECTS    1.302549e+05
-BLK_MQ_PCI                         7.726215e+04
-DRM_TTM                            7.438953e+04
-DRM_AST                            5.264603e+04
-DRM_RADEON_USERPTR                 4.080075e+04
-FB_RIVA_I2C                        3.412920e+04
-nbyes                              1.717400e+04
-BLK_DEV_BSGLIB                     1.283182e+04
-Length: 100, dtype: float64","count    9248.000000
-mean       39.397287
-std        33.567276
-min         0.000959
-25%        13.323973
-50%        30.499440
-75%        56.427893
-max       235.176182
+DNS_RESOLVER                       2.325691e+06
+GRO_CELLS                          2.242687e+06
+GPIO_SCH311X                       2.221143e+06
+ACPI_VIDEO                         2.172817e+06
+BLK_DEV_UMEM                       2.166219e+06
+NET_VENDOR_DEC                     2.162183e+06
+JBD2                               2.095111e+06
+NET_VENDOR_MARVELL                 2.042103e+06
+NVME_CORE                          1.868730e+06
+DRM_AMDGPU_CIK                     1.739414e+06
+MISDN_IPAC                         1.654356e+06
+DRM_AST                            1.572894e+06
+AMD_PHY                            1.297690e+06
+MAXSMP                             1.293390e+06
+NET_VENDOR_OKI                     1.132577e+06
+DRM_AMDGPU                         1.106429e+06
+DRM_DEBUG_MM                       1.044489e+06
+BLK_DEV_BSGLIB                     1.038428e+06
+MRP                                9.283965e+05
+FB_IMSTT                           8.438444e+05
+HID_PICOLCD_LEDS                   6.338660e+05
+INTEL_GTT                          6.170898e+05
+FAT_FS                             6.114463e+05
+LOCK_STAT                          5.399105e+05
+WIMAX                              4.137862e+05
+BLK_DEV_BSG                        3.251581e+05
+RTS5208                            2.977543e+05
+CONSTRUCTORS                       9.668150e+04
+WEXT_SPY                           5.036225e+04
+nbyes                              2.140478e+04
+Length: 100, dtype: float64","count    91547.000000
+mean        50.042485
+std         42.714757
+min          0.000323
+25%         17.374325
+50%         38.720434
+75%         71.724754
+max        430.295081
 Name: % error, dtype: float64"
 2,PolynomialRegression,False,RandomForest,"Index(['DEBUG_INFO', 'nbyes', 'DEBUG_INFO_REDUCED', 'DEBUG_INFO_SPLIT',
        'X86_NEED_RELOCS', 'RANDOMIZE_BASE', 'UBSAN_SANITIZE_ALL',
@@ -192,73 +192,73 @@ Name: % error, dtype: float64"
        'NET_VENDOR_CHELSIO', 'RTS5208', 'XPS', 'NVME_CORE', 'CHELSIO_T1',
        'XFRM', 'SBITMAP', 'STP', 'FB_NEOMAGIC', 'DRM_I915_USERPTR',
        'FB_RIVA_I2C', 'BLK_SCSI_REQUEST', 'GPIO_SCH311X'],
-      dtype='object')","LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None, normalize=False)",vmlinux,"['nbyes', 'nbno', 'nbmodule', 'nbyesmodule']",0.1,"DEBUG_INFO_REDUCED                 1.189266e+13
-nbyes                              1.042491e+13
-DEBUG_INFO_SPLIT                   5.619323e+12
-RANDOMIZE_BASE                     3.632084e+12
-UBSAN_SANITIZE_ALL                 1.708428e+12
-X86_NEED_RELOCS                    9.840797e+11
-nbno                               2.828565e+11
-KASAN_OUTLINE                      2.596266e+11
-GCOV_PROFILE_ALL                   1.890841e+11
-nbyesmodule                        1.843931e+11
-MMU_NOTIFIER                       1.036479e+11
-DRM_NOUVEAU                        7.956208e+10
-MAXSMP                             6.851109e+10
-XFS_DEBUG                          6.612794e+10
-SCSI_ISCSI_ATTRS                   6.547362e+10
-MDIO                               6.116093e+10
-DRM_GMA500                         5.198654e+10
-KCOV_INSTRUMENT_ALL                3.765551e+10
-FDDI                               2.941474e+10
-X86_VSMP                           2.882415e+10
-UBSAN_ALIGNMENT                    2.846225e+10
-XFS_FS                             2.086423e+10
-FB_DDC                             1.960643e+10
-BLK_MQ_PCI                         1.701760e+10
-BLK_DEV_BSGLIB                     1.685666e+10
-INTEL_GTT                          1.640613e+10
-BLK_MQ_VIRTIO                      1.470110e+10
-SG_POOL                            1.322794e+10
-JBD2                               1.302289e+10
-KASAN                              1.134189e+10
-                                       ...     
-DRM_I915_SW_FENCE_DEBUG_OBJECTS    2.395341e+09
-NET_VENDOR_DEC                     2.269674e+09
-FB_RIVA_I2C                        2.264871e+09
-DRM_BOCHS                          2.188265e+09
-MRP                                2.086695e+09
-BLK_DEV_UMEM                       1.995802e+09
-SSB_DRIVER_PCICORE                 1.709283e+09
-DRM_I915_USERPTR                   1.645792e+09
-SCSI_SAS_LIBSAS                    1.476513e+09
-LOCK_STAT                          1.469205e+09
-DRM_HISI_HIBMC                     1.326877e+09
-RANDOMIZE_MEMORY                   1.270595e+09
-DRM_AMDGPU_CIK                     1.225221e+09
-ACPI_VIDEO                         1.212161e+09
-MLX4_EN                            1.205180e+09
-CONSTRUCTORS                       1.138388e+09
-XFRM                               1.094398e+09
-SBITMAP                            1.046752e+09
-DRM_RADEON_USERPTR                 1.042136e+09
-ARCNET_1051                        8.931286e+08
-AMD_PHY                            6.957940e+08
-NET_VENDOR_REALTEK                 6.907174e+08
-BLK_SCSI_REQUEST                   6.833293e+08
-NET_VENDOR_MELLANOX                6.594958e+08
-DRM_VMWGFX                         5.710500e+08
-MPLS_ROUTING                       5.635825e+08
-DRM_VM                             4.785372e+08
-DRM_CIRRUS_QEMU                    3.624237e+08
-DRM_QXL                            5.565610e+07
-DEBUG_INFO                         1.217760e+07
-Length: 100, dtype: float64","count    9248.000000
-mean       16.844875
-std        16.917923
-min         0.003844
-25%         5.732267
-50%        12.085238
-75%        22.400041
-max       252.093097
+      dtype='object')","LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None, normalize=False)",vmlinux,"['nbyes', 'nbno', 'nbmodule', 'nbyesmodule']",0.99,"DEBUG_INFO_REDUCED DEBUG_INFO_SPLIT           1.642945e+07
+DEBUG_INFO X86_NEED_RELOCS                    1.598978e+07
+DEBUG_INFO RANDOMIZE_BASE                     1.598978e+07
+DEBUG_INFO_SPLIT UBSAN_NULL                   9.746300e+06
+DEBUG_INFO DRM_I915_USERPTR                   9.629731e+06
+UBSAN_SANITIZE_ALL UBSAN_ALIGNMENT            9.613293e+06
+DEBUG_INFO FB_IMSTT                           8.400341e+06
+DEBUG_INFO MMU_NOTIFIER                       8.276061e+06
+X86_NEED_RELOCS DRM_I915_USERPTR              8.029887e+06
+RANDOMIZE_BASE DRM_I915_USERPTR               8.029887e+06
+DEBUG_INFO DRM_VM                             7.625486e+06
+DEBUG_INFO DRM_NOUVEAU                        7.540458e+06
+GCOV_PROFILE_ALL KCOV_INSTRUMENT_ALL          7.521695e+06
+DEBUG_INFO GPIO_SCH311X                       7.395497e+06
+RANDOMIZE_BASE DRM_HISI_HIBMC                 7.262517e+06
+X86_NEED_RELOCS DRM_HISI_HIBMC                7.262517e+06
+RANDOMIZE_BASE DRM_RADEON_USERPTR             7.147965e+06
+X86_NEED_RELOCS DRM_RADEON_USERPTR            7.147965e+06
+DEBUG_INFO DRM_I915                           7.104468e+06
+DEBUG_INFO DRM_HISI_HIBMC                     6.982820e+06
+DEBUG_INFO DRM_VMWGFX                         6.888523e+06
+DEBUG_INFO_REDUCED UBSAN_NULL                 6.614788e+06
+DRM_AST KALLSYMS_ABSOLUTE_PERCPU              6.516023e+06
+DEBUG_INFO DRM_I915_SW_FENCE_DEBUG_OBJECTS    6.359052e+06
+DRM_NOUVEAU KALLSYMS_ABSOLUTE_PERCPU          6.282207e+06
+DEBUG_INFO STP                                6.034339e+06
+DRM_BOCHS SSB_DRIVER_PCICORE                  5.905378e+06
+DEBUG_INFO_REDUCED FB_DDC                     5.830249e+06
+MAXSMP HID_PICOLCD_LEDS                       5.824640e+06
+JBD2 RANDOMIZE_MEMORY                         5.765675e+06
+                                                  ...     
+ARCNET_1051                                   5.848764e-02
+DRM_AMDGPU_CIK^2                              5.551115e-02
+NET_VENDOR_OKI^2                              5.210261e-02
+VMWARE_VMCI^2                                 5.209548e-02
+NET_VENDOR_OKI                                5.040695e-02
+ARCNET_1051^2                                 4.920027e-02
+DRM_AMDGPU_CIK                                4.693246e-02
+FB_RIVA_I2C                                   3.564867e-02
+FB_RIVA_I2C^2                                 3.198773e-02
+DRM_NOUVEAU^2                                 2.127538e-02
+DRM_NOUVEAU FB_DDC                            2.127538e-02
+DRM_NOUVEAU DRM_TTM                           2.127538e-02
+DRM_NOUVEAU DRM_VM                            2.127538e-02
+GPIO_SCH311X^2                                1.780498e-02
+GPIO_SCH311X                                  1.777330e-02
+STP^2                                         1.601138e-02
+STP                                           1.248168e-02
+NET_UDP_TUNNEL                                1.079110e-02
+NET_UDP_TUNNEL^2                              9.722373e-03
+GRO_CELLS NET_UDP_TUNNEL                      9.722373e-03
+NET_UDP_TUNNEL XFRM                           9.722373e-03
+nbyesmodule                                   4.235638e-03
+DRM_RADEON DRM_TTM                            7.188071e-04
+DRM_RADEON^2                                  7.188071e-04
+DEBUG_INFO_REDUCED DELL_WMI                   1.796056e-05
+DEBUG_INFO_REDUCED NET_VENDOR_OKI             1.620781e-05
+DEBUG_INFO_REDUCED NETXEN_NIC                 1.397682e-05
+DEBUG_INFO_SPLIT CNIC                         3.798050e-07
+UBSAN_SANITIZE_ALL NETXEN_NIC                 2.291054e-07
+UBSAN_SANITIZE_ALL MISDN_IPAC                 3.230525e-08
+Length: 5149, dtype: float64","count    91547.000000
+mean        54.656842
+std         62.868027
+min          0.001057
+25%         15.761200
+50%         35.476452
+75%         69.059553
+max       1389.653124
 Name: % error, dtype: float64"
