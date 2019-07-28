@@ -1,24 +1,79 @@
 ,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,additional_ft,test_size,coef_order,accuracy
-0,LassoCV,False,None,"Index(['OPENVSWITCH', 'TEXTSEARCH_FSM', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+0,RidgeCV,False,None,"Index(['OPENVSWITCH', 'TEXTSEARCH_FSM', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
        'NFC_HCI', 'NETFILTER_XT_MATCH_TIME', 'NET_MPLS_GSO', 'NFC_SHDLC',
        'NETFILTER_XT_MATCH_U32', 'OPENVSWITCH_GRE',
        ...
        'MICROCODE_AMD', 'ISDN_DRV_HISAX', 'CHARGER_BQ24190', 'SND_SOC_NAU8825',
        'BH1750', 'NETWORK_FILESYSTEMS', 'nbyes', 'nbno', 'nbmodule',
        'nbyesmodule'],
-      dtype='object', length=9239)","LassoCV(alphas=None, copy_X=True, cv=2, eps=0.001, fit_intercept=True,
-        max_iter=1000, n_alphas=100, n_jobs=None, normalize=False,
-        positive=False, precompute='auto', random_state=None,
-        selection='cyclic', tol=0.0001, verbose=False)",vmlinux,"['nbyes', 'nbno', 'nbmodule', 'nbyesmodule']",0.1,"DEBUG_INFO    5.235460e+07
-nbyes         2.527742e+04
-nbno          2.714988e+03
-nbmodule      2.007544e+03
-dtype: float64","count    9248.000000
-mean       51.750578
-std        31.514038
-min         0.024288
-25%        27.578316
-50%        49.617319
-75%        71.459803
-max       206.459310
+      dtype='object', length=9239)","RidgeCV(alphas=array([ 0.1,  1. , 10. ]), cv=2, fit_intercept=True,
+        gcv_mode=None, normalize=False, scoring=None, store_cv_values=False)",vmlinux,"['nbyes', 'nbno', 'nbmodule', 'nbyesmodule']",0.9,"DEBUG_INFO                   1.563734e+08
+DEBUG_INFO_SPLIT             8.611332e+07
+DEBUG_INFO_REDUCED           7.247910e+07
+UBSAN_SANITIZE_ALL           3.721770e+07
+X86_NEED_RELOCS              1.724865e+07
+RANDOMIZE_BASE               1.724865e+07
+GCOV_PROFILE_ALL             1.707754e+07
+JME                          1.585930e+07
+6LOWPAN_NHC_IPV6             1.583181e+07
+SND_CMIPCI                   1.528909e+07
+SND_HDA_CODEC_CMEDIA         1.517973e+07
+FB_TFT_SH1106                1.448112e+07
+SND_SOC_PCM512x_SPI          1.445161e+07
+SND_INTEL8X0M                1.438558e+07
+DEBUG_INFO_DWARF4            1.436811e+07
+SFC_FALCON                   1.412916e+07
+PATA_RDC                     1.406543e+07
+GPIO_ACPI                    1.392975e+07
+NE2K_PCI                     1.387333e+07
+PATA_CYPRESS                 1.383274e+07
+USB_NET_HUAWEI_CDC_NCM       1.381307e+07
+ATH6KL_DEBUG                 1.376494e+07
+PCI_ATMEL                    1.371796e+07
+NFC_PN544_MEI                1.366293e+07
+HOSTAP_CS                    1.360118e+07
+KS8851                       1.352076e+07
+SND_SOC_WM8523               1.343801e+07
+NFC_MEI_PHY                  1.340407e+07
+SND_RIPTIDE                  1.331672e+07
+USB_NET_DM9601               1.329608e+07
+                                 ...     
+DEV_DAX                      1.181238e+04
+CPU_SUP_AMD                  1.052798e+04
+MOUSE_SYNAPTICS_I2C          1.047608e+04
+MTD_NETSC520                 1.034060e+04
+MMC_SDHCI_F_SDH30            9.948033e+03
+INPUT_JOYSTICK               9.848931e+03
+TOUCHSCREEN_USB_COMPOSITE    9.062069e+03
+SSB_DEBUG                    8.828170e+03
+nbyes                        8.184892e+03
+MTD_BLOCK2MTD                8.037141e+03
+SND_SOC_ROCKCHIP             7.928887e+03
+BATTERY_SBS                  7.784986e+03
+MTD_MAP_BANK_WIDTH_4         7.572136e+03
+CRYPTO_CAST5_AVX_X86_64      7.349866e+03
+USB_GADGET_DEBUG_FS          7.219013e+03
+MTD_CFI_INTELEXT             6.724434e+03
+INTEL_GTT                    6.124210e+03
+nbmodule                     5.821806e+03
+RTC_INTF_PROC                4.346523e+03
+I2C_VIAPRO                   3.778569e+03
+COMMON_CLK_CDCE925           3.720603e+03
+BRCMFMAC_PCIE                3.538725e+03
+BRCMFMAC_PROTO_MSGBUF        3.538725e+03
+MFD_STW481X                  3.210420e+03
+THUNDER_NIC_PF               3.158660e+03
+HID_ICADE                    2.952465e+03
+nbno                         2.363103e+03
+nbyesmodule                  2.363102e+03
+PCI_ENDPOINT_CONFIGFS        1.442170e+03
+USB_PRINTER                  3.696701e+02
+Length: 9179, dtype: float64","count    83224.000000
+mean       139.629216
+std        124.584924
+min          0.001835
+25%         45.161021
+50%        104.569166
+75%        199.814181
+max       1430.221707
 Name: % error, dtype: float64"
