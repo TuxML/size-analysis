@@ -3,77 +3,77 @@
        'NFC_HCI', 'NETFILTER_XT_MATCH_TIME', 'NET_MPLS_GSO', 'NFC_SHDLC',
        'NETFILTER_XT_MATCH_U32', 'OPENVSWITCH_GRE',
        ...
-       'VIDEO_S3C_CAMIF', 'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH',
-       'APDS9960', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
-       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
-      dtype='object', length=9235)","RidgeCV(alphas=array([ 0.1,  1. , 10. ]), cv=2, fit_intercept=True,
-        gcv_mode=None, normalize=False, scoring=None, store_cv_values=False)",vmlinux,"['nbyes', 'nbno', 'nbmodule', 'nbyesmodule']",0.1,"DEBUG_INFO                     2.342949e+08
-DEBUG_INFO_SPLIT               1.309347e+08
-DEBUG_INFO_REDUCED             1.189318e+08
-UBSAN_SANITIZE_ALL             4.639603e+07
-GCOV_PROFILE_ALL               2.415987e+07
-X86_NEED_RELOCS                2.004006e+07
-RANDOMIZE_BASE                 2.004006e+07
-USB_NET_CDC_SUBSET             1.797192e+07
-USB_ETH_EEM                    1.787048e+07
-USB_ETH_RNDIS                  1.787048e+07
-USB_ETH                        1.787048e+07
-DRM_I915_GVT_KVMGT             1.670590e+07
-IP6_NF_NAT                     1.663512e+07
-USB_NET_CDC_SUBSET_ENABLE      1.540888e+07
-MACVTAP                        1.486943e+07
-RTL8192DE                      1.476190e+07
-RT61PCI                        1.473128e+07
-LIBIPW                         1.465180e+07
-TAP                            1.433929e+07
-VIDEO_COBALT                   1.396073e+07
-RT2X00_LIB_USB                 1.389706e+07
-RT2X00_LIB_FIRMWARE            1.332114e+07
-FCOE_FNIC                      1.328925e+07
-RTL8723AE                      1.304900e+07
-INFINIBAND_CXGB4               1.266163e+07
-PLX_HERMES                     1.191313e+07
-SGI_XP                         1.181518e+07
-RT73USB                        1.154499e+07
-KASAN                          1.142278e+07
-KASAN_OUTLINE                  1.142278e+07
-                                   ...     
-POWER_RESET_SYSCON_POWEROFF    3.178607e+03
-DEVFREQ_EVENT_EXYNOS_PPMU      3.171829e+03
-NET_SCH_DSMARK                 3.166820e+03
-PPS_CLIENT_LDISC               2.953770e+03
-WLAN_VENDOR_REALTEK            2.477632e+03
-DRM_LEGACY                     2.336297e+03
-DVB_NXT200X                    2.296570e+03
-MLX_PLATFORM                   2.282116e+03
-X86_DEBUG_FPU                  2.130886e+03
-SOC_BRCMSTB                    1.996792e+03
-RTC_DRV_R7301                  1.972909e+03
-SPI_LP8841_RTC                 1.895467e+03
-PM_NOTIFIER_ERROR_INJECT       1.682697e+03
-EXTCON_MAX77693                1.665463e+03
-INPUT_MMA8450                  1.665005e+03
-MFD_TI_AM335X_TSCADC           1.574940e+03
-SRAM                           1.558789e+03
-ANDROID_BINDER_IPC             1.368457e+03
-FSI_MASTER_HUB                 1.367034e+03
-ZRAM                           1.334149e+03
-X86_X2APIC                     1.228849e+03
-AURORA_NB8800                  1.208370e+03
-USB_LEGOTOWER                  9.971549e+02
-MTD_ABSENT                     9.920569e+02
-BSD_PROCESS_ACCT_V3            9.735056e+02
-PCCARD                         4.136699e+02
-CRYPTO_SKEIN                   3.656396e+02
-FB_MATROX                      2.120027e+02
-I2C_PARPORT_LIGHT              2.523835e+01
-GOOGLE_SMI                     1.544027e+01
-Length: 9182, dtype: float64","count    9248.000000
-mean       54.550839
-std        46.418955
-min         0.001607
-25%        19.911651
-50%        42.300615
-75%        77.190953
-max       356.917433
+       'MICROCODE_AMD', 'ISDN_DRV_HISAX', 'CHARGER_BQ24190', 'SND_SOC_NAU8825',
+       'BH1750', 'NETWORK_FILESYSTEMS', 'nbyes', 'nbno', 'nbmodule',
+       'nbyesmodule'],
+      dtype='object', length=9239)","RidgeCV(alphas=array([ 0.1,  1. , 10. ]), cv=2, fit_intercept=True,
+        gcv_mode=None, normalize=False, scoring=None, store_cv_values=False)",vmlinux,"['nbyes', 'nbno', 'nbmodule', 'nbyesmodule']",0.1,"DEBUG_INFO                    2.342309e+08
+DEBUG_INFO_SPLIT              1.309990e+08
+DEBUG_INFO_REDUCED            1.189883e+08
+UBSAN_SANITIZE_ALL            4.633494e+07
+GCOV_PROFILE_ALL              2.409547e+07
+X86_NEED_RELOCS               1.997695e+07
+RANDOMIZE_BASE                1.997695e+07
+USB_ETH_EEM                   1.795097e+07
+USB_ETH                       1.795097e+07
+USB_ETH_RNDIS                 1.795097e+07
+USB_NET_CDC_SUBSET            1.789965e+07
+DRM_I915_GVT_KVMGT            1.671118e+07
+IP6_NF_NAT                    1.669572e+07
+USB_NET_CDC_SUBSET_ENABLE     1.552932e+07
+MACVTAP                       1.481652e+07
+RT61PCI                       1.479894e+07
+LIBIPW                        1.472944e+07
+RTL8192DE                     1.470747e+07
+TAP                           1.441714e+07
+VIDEO_COBALT                  1.391838e+07
+RT2X00_LIB_USB                1.382488e+07
+RT2X00_LIB_FIRMWARE           1.329584e+07
+FCOE_FNIC                     1.322873e+07
+RTL8723AE                     1.310711e+07
+INFINIBAND_CXGB4              1.259644e+07
+PLX_HERMES                    1.183981e+07
+SGI_XP                        1.178464e+07
+RT73USB                       1.159875e+07
+KASAN                         1.136101e+07
+KASAN_OUTLINE                 1.136101e+07
+                                  ...     
+BLK_DEV_INTEGRITY             3.690187e+03
+FONT_MINI_4x6                 3.624680e+03
+YAM                           3.591956e+03
+NLS_CODEPAGE_863              3.209977e+03
+DA9062_WATCHDOG               3.197262e+03
+FB_TMIO_ACCELL                3.084959e+03
+EUROTECH_WDT                  3.013288e+03
+SERIAL_ST_ASC_CONSOLE         2.895526e+03
+GPIO_SYSFS                    2.524388e+03
+QCOM_HIDMA_MGMT               2.163363e+03
+RTC_DRV_S3C                   2.000366e+03
+PWM_MTK_DISP                  1.951383e+03
+S3C2443_COMMON_CLK            1.752381e+03
+PCIEAER                       1.737551e+03
+USB_SERIAL_QT2                1.355871e+03
+VIDEO_TI_VPE_DEBUG            1.320822e+03
+MFD_TPS65086                  1.244792e+03
+ADIS16400                     1.139253e+03
+SPI_MESON_SPIFC               6.498109e+02
+GPIO_MPC8XXX                  6.451330e+02
+VIDEO_DAVINCI_VPIF_CAPTURE    5.247500e+02
+BLK_DEV_IDEACPI               4.556223e+02
+UFS_FS_WRITE                  4.195469e+02
+EXT2_FS                       3.175318e+02
+JOYSTICK_IFORCE_USB           2.376913e+02
+EXT2_FS_XATTR                 2.270979e+02
+STM32_DAC                     1.793506e+02
+STM32_DAC_CORE                1.793506e+02
+FB_ATY_CT                     1.539535e+02
+SND_SAMSUNG_I2S               9.250546e+01
+Length: 9186, dtype: float64","count    9248.000000
+mean       54.557379
+std        46.408996
+min         0.015172
+25%        19.986813
+50%        42.307846
+75%        77.252725
+max       356.178685
 Name: % error, dtype: float64"
