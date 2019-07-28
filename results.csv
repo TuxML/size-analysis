@@ -1,157 +1,81 @@
 ,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,additional_ft,test_size,coef_order,accuracy
-0,LinearRegression,False,None,"Index(['OPENVSWITCH', 'TEXTSEARCH_FSM', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+0,LassoCV,False,None,"Index(['OPENVSWITCH', 'TEXTSEARCH_FSM', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
        'NFC_HCI', 'NETFILTER_XT_MATCH_TIME', 'NET_MPLS_GSO', 'NFC_SHDLC',
        'NETFILTER_XT_MATCH_U32', 'OPENVSWITCH_GRE',
        ...
-       'MICROCODE_AMD', 'ISDN_DRV_HISAX', 'CHARGER_BQ24190', 'SND_SOC_NAU8825',
-       'BH1750', 'NETWORK_FILESYSTEMS', 'nbyes', 'nbno', 'nbmodule',
-       'nbyesmodule'],
-      dtype='object', length=9239)","LinearRegression(copy_X=True, fit_intercept=True, n_jobs=None, normalize=False)",vmlinux,"['nbyes', 'nbno', 'nbmodule', 'nbyesmodule']",0.9,"nbyesmodule                       4.446228e+16
-nbno                              4.394404e+16
-TEXTSEARCH_FSM                    9.898877e+15
-TEXTSEARCH_BM                     9.898854e+15
-nbyes                             5.182540e+14
-nbmodule                          5.182425e+14
-GENERIC_IRQ_EFFECTIVE_AFF_MASK    4.457571e+14
-SMP                               2.677484e+14
-GENERIC_IRQ_MIGRATION             7.133399e+13
-TCP_CONG_CUBIC                    2.989415e+13
-TCP_CONG_ADVANCED                 2.228782e+13
-DEFAULT_CUBIC                     2.226498e+13
-INET                              2.006438e+13
-HAVE_ACPI_APEI_NMI                1.660288e+13
-RCU_NEED_SEGCBLIST                1.620655e+13
-QUEUED_SPINLOCKS                  1.491158e+13
-NFC_S3FWRN5_I2C                   1.478388e+13
-NFC_S3FWRN5                       1.476104e+13
-X86_64_SMP                        1.440860e+13
-LOCK_SPIN_ON_OWNER                1.362895e+13
-SND_SOC_WM8940                    1.275374e+13
-RCU_STALL_COMMON                  1.249430e+13
-SPI_PXA2XX                        1.191246e+13
-SPI_PXA2XX_PCI                    1.188961e+13
-TREE_RCU                          1.151085e+13
-B43_BCMA                          1.135264e+13
-INTEL_IOMMU                       1.080425e+13
-MUTEX_SPIN_ON_OWNER               1.057219e+13
-RWSEM_SPIN_ON_OWNER               1.054365e+13
-QUEUED_RWLOCKS                    1.050954e+13
-                                      ...     
-ATH9K_DFS_DEBUGFS                 1.122963e+10
-RTL8192CE                         1.122540e+10
-FB_DEFERRED_IO                    1.122401e+10
-HID_SENSOR_IIO_COMMON             1.121824e+10
-SGI_XP                            1.121600e+10
-RT2X00_LIB_CRYPTO                 1.121407e+10
-RTL8187                           1.118869e+10
-VIDEO_S5P_MIPI_CSIS               1.118663e+10
-USB_NET_CDC_SUBSET_ENABLE         1.116928e+10
-RTLWIFI_PCI                       1.076729e+10
-VIDEO_STK1160                     1.035374e+10
-CRYPTO_KPP                        8.887097e+09
-TRACER_SNAPSHOT                   7.391695e+09
-CRYPTO_MANAGER2                   6.972371e+09
-KASAN                             6.035413e+09
-X86_MCE_INTEL                     5.505729e+09
-PCMCIA_QLOGIC                     1.170381e+08
-PCMCIA_FDOMAIN                    8.524683e+07
-PCMCIA_AHA152X                    5.539362e+07
-TEST_KASAN                        1.671594e+07
-VHOST_SCSI                        3.230876e+06
-CRC32_SLICEBY8                    6.807961e+05
-CRYPTO_TEST                       1.689358e+04
-PCMCIA_SYM53C500                  1.559673e+04
-USB_ETH_RNDIS                     1.903000e+03
-USB_ETH                           1.720000e+03
-DSCC4                             7.854601e-01
-RTL8192U                          4.408181e-03
-RTLLIB_CRYPTO_CCMP                2.859805e-03
-RTLLIB                            1.152652e-03
-Length: 9230, dtype: float64","count    8.322400e+04
-mean     1.079464e+04
-std      5.047019e+05
-min      7.629977e-03
-25%      1.248046e+02
-50%      3.026782e+02
-75%      5.916742e+02
-max      4.724058e+07
-Name: % error, dtype: float64"
-1,Lasso,False,None,"Index(['OPENVSWITCH', 'TEXTSEARCH_FSM', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
-       'NFC_HCI', 'NETFILTER_XT_MATCH_TIME', 'NET_MPLS_GSO', 'NFC_SHDLC',
-       'NETFILTER_XT_MATCH_U32', 'OPENVSWITCH_GRE',
-       ...
-       'MICROCODE_AMD', 'ISDN_DRV_HISAX', 'CHARGER_BQ24190', 'SND_SOC_NAU8825',
-       'BH1750', 'NETWORK_FILESYSTEMS', 'nbyes', 'nbno', 'nbmodule',
-       'nbyesmodule'],
-      dtype='object', length=9239)","Lasso(alpha=25, copy_X=True, fit_intercept=True, max_iter=1, normalize=False,
-      positive=False, precompute=False, random_state=None, selection='cyclic',
-      tol=0.0001, warm_start=False)",vmlinux,"['nbyes', 'nbno', 'nbmodule', 'nbyesmodule']",0.9,"DEV_DAX_PMEM                  1.012881e+08
-DEBUG_INFO                    7.425050e+07
-UBSAN_SANITIZE_ALL            6.266192e+07
-VIDEO_COBALT                  5.972372e+07
-CHELSIO_T4_FCOE               5.703639e+07
-CARL9170_HWRNG                5.494349e+07
-PNFS_BLOCK                    5.176643e+07
-DRM_I915_GVT_KVMGT            4.166832e+07
-DEBUG_INFO_DWARF4             3.897107e+07
-KASAN                         3.803900e+07
-ROCKER                        3.777515e+07
-DEBUG_INFO_REDUCED            3.474880e+07
-CARL9170                      3.252304e+07
-LIRC_ZILOG                    3.125001e+07
-HISAX_TELES_CS                3.087593e+07
-PCMCIA_ATMEL                  2.847905e+07
-DEBUG_INFO_SPLIT              2.613238e+07
-XEN_SCSI_BACKEND              2.550014e+07
-HAVE_ALIGNED_STRUCT_PAGE      2.488030e+07
-PNFS_FLEXFILE_LAYOUT          2.395527e+07
-DEFAULT_RENO                  2.386573e+07
-OPENVSWITCH                   2.218710e+07
-RANDOMIZE_BASE                2.164153e+07
-FUSION_LAN                    2.142156e+07
-CARL9170_DEBUGFS              2.047601e+07
-IWLEGACY                      1.966995e+07
-PCI_ATMEL                     1.942081e+07
-AIRO                          1.941773e+07
-RSI_USB                       1.924840e+07
-ATH6KL                        1.899221e+07
-                                  ...     
-DVB_USB_DIB3000MC             3.064214e+03
-THINKPAD_ACPI                 3.053707e+03
-SND_SOC_WM8988                2.971200e+03
-IP_SET_HASH_MAC               2.811343e+03
-TRANSPARENT_HUGE_PAGECACHE    2.733506e+03
-DECOMPRESS_BZIP2              2.370767e+03
-NETLINK_DIAG                  1.898712e+03
-IIO_ST_LSM6DSX_I2C            1.827206e+03
-SND_SOC_MAX98926              1.757668e+03
-CRYPTO_AKCIPHER               1.581622e+03
-SPI_SH_HSPI                   1.536435e+03
-PINCTRL_QCOM_SPMI_PMIC        1.507555e+03
-GENERIC_PINCTRL_GROUPS        1.502735e+03
-COMPAT                        1.461558e+03
-NET_TEAM_MODE_BROADCAST       1.460481e+03
-CC_OPTIMIZE_FOR_SIZE          1.365157e+03
-B43_SSB                       1.336254e+03
-X86_NEED_RELOCS               1.266454e+03
-QUEUED_RWLOCKS                1.154409e+03
-QNX6FS_FS                     1.040711e+03
-DVB_USB_DEBUG                 1.017632e+03
-REGULATOR_ISL9305             9.035413e+02
-MAC80211_RC_MINSTREL          7.282697e+02
-VFIO_PCI_INTX                 3.525080e+02
-THP_SWAP                      2.111172e+02
-nbno                          1.135896e+02
-nbmodule                      7.383663e+01
-LOCK_SPIN_ON_OWNER            2.842192e+01
-nbyesmodule                   1.886006e+01
-nbyes                         8.190576e+00
-Length: 9172, dtype: float64","count    83224.000000
-mean       100.397665
-std         87.990612
-min          0.004166
-25%         34.294868
-50%         75.789066
-75%        142.886006
-max       1004.306238
+       'VIDEO_S3C_CAMIF', 'SND_SOC_INTEL_SKL_NAU88L25_SSM4567_MACH',
+       'APDS9960', 'SLABINFO', 'MICROCODE_AMD', 'ISDN_DRV_HISAX',
+       'CHARGER_BQ24190', 'SND_SOC_NAU8825', 'BH1750', 'NETWORK_FILESYSTEMS'],
+      dtype='object', length=9235)","LassoCV(alphas=None, copy_X=True, cv=5, eps=0.001, fit_intercept=True,
+        max_iter=1000, n_alphas=100, n_jobs=None, normalize=False,
+        positive=False, precompute='auto', random_state=None,
+        selection='cyclic', tol=0.0001, verbose=False)",vmlinux,"['nbyes', 'nbno', 'nbmodule', 'nbyesmodule']",0.9,"DEBUG_INFO                       2.154330e+08
+DEBUG_INFO_SPLIT                 1.106154e+08
+DEBUG_INFO_REDUCED               9.947503e+07
+UBSAN_SANITIZE_ALL               3.830738e+07
+RANDOMIZE_BASE                   3.748331e+07
+KASAN                            1.709851e+07
+GCOV_PROFILE_ALL                 1.699746e+07
+XFS_DEBUG                        7.717273e+06
+DRM_I915                         6.033797e+06
+SFC_FALCON                       4.445159e+06
+RDMA_RXE                         3.797158e+06
+DEBUG_INFO_DWARF4                3.232982e+06
+UBSAN_ALIGNMENT                  3.231806e+06
+ASUS_WIRELESS                    3.207336e+06
+USB_NET_RNDIS_HOST               3.112673e+06
+SND_RIPTIDE                      2.763940e+06
+IP_SCTP                          2.704007e+06
+BT                               2.682986e+06
+JME                              2.523824e+06
+MTD_BLOCK_RO                     2.318077e+06
+PCI_STUB                         2.277974e+06
+DRM_AMDGPU                       2.250161e+06
+NET_VENDOR_TEHUTI                2.246303e+06
+TCM_PSCSI                        2.217454e+06
+KEYBOARD_BCM                     2.171139e+06
+KCOV_INSTRUMENT_ALL              2.153216e+06
+CFG80211                         2.122597e+06
+DELL_SMO8800                     2.008367e+06
+CONSTRUCTORS                     1.984526e+06
+MFD_TWL4030_AUDIO                1.932853e+06
+                                     ...     
+ATALK                            1.006144e+04
+SERIO_PCIPS2                     9.284165e+03
+ACPI_CMPC                        8.150787e+03
+NILFS2_FS                        7.899265e+03
+HID_MICROSOFT                    6.130519e+03
+SUSPEND_FREEZER                  5.802450e+03
+HW_RANDOM_TIMERIOMEM             5.773852e+03
+LCD_LTV350QV                     5.478216e+03
+WATCHDOG_PRETIMEOUT_GOV_PANIC    4.000461e+03
+W83627HF_WDT                     3.975105e+03
+SENSORS_NCT7904                  2.429515e+03
+LPC_SCH                          1.936060e+03
+INTEL_TH_PCI                     1.623380e+03
+RCU_STALL_COMMON                 1.443366e+03
+HW_CONSOLE                       1.416027e+03
+GENERIC_IRQ_MIGRATION            1.275367e+03
+QUEUED_RWLOCKS                   2.838954e+02
+RWSEM_SPIN_ON_OWNER              1.757493e+02
+MTD_PHYSMAP                      1.739154e+02
+X86_NEED_RELOCS                  1.722957e-06
+SPARSEMEM_VMEMMAP                3.444660e-08
+DEFAULT_CFQ                      6.095485e-09
+GENERIC_PENDING_IRQ              1.856457e-09
+TINY_RCU                         1.856457e-09
+TIMER_PROBE                      1.237604e-09
+LOCK_SPIN_ON_OWNER               1.031365e-09
+SMP                              8.250921e-10
+842_COMPRESS                     6.188410e-10
+842_DECOMPRESS                   4.125606e-10
+TREE_SRCU                        2.062730e-10
+Length: 419, dtype: float64","count    83224.000000
+mean        36.426294
+std         30.802421
+min          0.000497
+25%         12.995389
+50%         28.692935
+75%         51.835577
+max        344.243794
 Name: % error, dtype: float64"
