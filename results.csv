@@ -1,79 +1,25 @@
 ,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,additional_ft,test_size,coef_order,accuracy
-0,RidgeCV,False,None,"Index(['OPENVSWITCH', 'TEXTSEARCH_FSM', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
+0,ElasticNetCV,False,None,"Index(['OPENVSWITCH', 'TEXTSEARCH_FSM', 'NETFILTER_XT_MATCH_TCPMSS', 'MPLS',
        'NFC_HCI', 'NETFILTER_XT_MATCH_TIME', 'NET_MPLS_GSO', 'NFC_SHDLC',
        'NETFILTER_XT_MATCH_U32', 'OPENVSWITCH_GRE',
        ...
        'MICROCODE_AMD', 'ISDN_DRV_HISAX', 'CHARGER_BQ24190', 'SND_SOC_NAU8825',
        'BH1750', 'NETWORK_FILESYSTEMS', 'nbyes', 'nbno', 'nbmodule',
        'nbyesmodule'],
-      dtype='object', length=9239)","RidgeCV(alphas=array([ 0.1,  1. , 10. ]), cv=2, fit_intercept=True,
-        gcv_mode=None, normalize=False, scoring=None, store_cv_values=False)",vmlinux,"['nbyes', 'nbno', 'nbmodule', 'nbyesmodule']",0.1,"DEBUG_INFO                    2.342309e+08
-DEBUG_INFO_SPLIT              1.309990e+08
-DEBUG_INFO_REDUCED            1.189883e+08
-UBSAN_SANITIZE_ALL            4.633494e+07
-GCOV_PROFILE_ALL              2.409547e+07
-X86_NEED_RELOCS               1.997695e+07
-RANDOMIZE_BASE                1.997695e+07
-USB_ETH_EEM                   1.795097e+07
-USB_ETH                       1.795097e+07
-USB_ETH_RNDIS                 1.795097e+07
-USB_NET_CDC_SUBSET            1.789965e+07
-DRM_I915_GVT_KVMGT            1.671118e+07
-IP6_NF_NAT                    1.669572e+07
-USB_NET_CDC_SUBSET_ENABLE     1.552932e+07
-MACVTAP                       1.481652e+07
-RT61PCI                       1.479894e+07
-LIBIPW                        1.472944e+07
-RTL8192DE                     1.470747e+07
-TAP                           1.441714e+07
-VIDEO_COBALT                  1.391838e+07
-RT2X00_LIB_USB                1.382488e+07
-RT2X00_LIB_FIRMWARE           1.329584e+07
-FCOE_FNIC                     1.322873e+07
-RTL8723AE                     1.310711e+07
-INFINIBAND_CXGB4              1.259644e+07
-PLX_HERMES                    1.183981e+07
-SGI_XP                        1.178464e+07
-RT73USB                       1.159875e+07
-KASAN                         1.136101e+07
-KASAN_OUTLINE                 1.136101e+07
-                                  ...     
-BLK_DEV_INTEGRITY             3.690187e+03
-FONT_MINI_4x6                 3.624680e+03
-YAM                           3.591956e+03
-NLS_CODEPAGE_863              3.209977e+03
-DA9062_WATCHDOG               3.197262e+03
-FB_TMIO_ACCELL                3.084959e+03
-EUROTECH_WDT                  3.013288e+03
-SERIAL_ST_ASC_CONSOLE         2.895526e+03
-GPIO_SYSFS                    2.524388e+03
-QCOM_HIDMA_MGMT               2.163363e+03
-RTC_DRV_S3C                   2.000366e+03
-PWM_MTK_DISP                  1.951383e+03
-S3C2443_COMMON_CLK            1.752381e+03
-PCIEAER                       1.737551e+03
-USB_SERIAL_QT2                1.355871e+03
-VIDEO_TI_VPE_DEBUG            1.320822e+03
-MFD_TPS65086                  1.244792e+03
-ADIS16400                     1.139253e+03
-SPI_MESON_SPIFC               6.498109e+02
-GPIO_MPC8XXX                  6.451330e+02
-VIDEO_DAVINCI_VPIF_CAPTURE    5.247500e+02
-BLK_DEV_IDEACPI               4.556223e+02
-UFS_FS_WRITE                  4.195469e+02
-EXT2_FS                       3.175318e+02
-JOYSTICK_IFORCE_USB           2.376913e+02
-EXT2_FS_XATTR                 2.270979e+02
-STM32_DAC                     1.793506e+02
-STM32_DAC_CORE                1.793506e+02
-FB_ATY_CT                     1.539535e+02
-SND_SAMSUNG_I2S               9.250546e+01
-Length: 9186, dtype: float64","count    9248.000000
-mean       54.557379
-std        46.408996
-min         0.015172
-25%        19.986813
-50%        42.307846
-75%        77.252725
-max       356.178685
+      dtype='object', length=9239)","ElasticNetCV(alphas=None, copy_X=True, cv='warn', eps=0.001, fit_intercept=True,
+             l1_ratio=0.5, max_iter=1000, n_alphas=100, n_jobs=None,
+             normalize=False, positive=False, precompute='auto',
+             random_state=None, selection='cyclic', tol=0.0001, verbose=0)",vmlinux,"['nbyes', 'nbno', 'nbmodule', 'nbyesmodule']",0.9,"nbyes          934.629498
+nbmodule       665.023542
+nbyesmodule    268.605829
+nbno           268.605815
+DEBUG_INFO       0.512936
+dtype: float64","count    83224.000000
+mean        80.177295
+std         60.740552
+min          0.002051
+25%         32.831848
+50%         67.405484
+75%        117.235005
+max        548.322112
 Name: % error, dtype: float64"
