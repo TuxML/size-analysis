@@ -2,17 +2,18 @@ from feature_selection import FeaturesLoader
 import numpy as np
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
+from time import clock
 
 class NetLauncher(object):
 
     def __init__(self, name_csv = 'feature_importanceRF.csv', predict_var ='vmlinux', drop_feature = True,
                  nb_features = 1000, learning_rate1 = 0.5, learning_rate2 = 0.025, nb_node_layer1 = 200,
                  nb_node_layer2 = 300, batch_size = 50, nb_epochs = 30, training_size = 0.9):
-
+        self.name_csv = name_csv
+        self.nb_features = nb_features
+        self.drop_feature = drop_feature
         f = FeaturesLoader(predict_var = predict_var, name_csv = name_csv, nb_features = nb_features, drop_feature = drop_feature)
-
         self.features = f.get_selected_features()
-
         self.predict_var = predict_var
         self.learning_rate1 = learning_rate1
         self.learning_rate2 = learning_rate2
@@ -24,7 +25,7 @@ class NetLauncher(object):
 
     def create_train_test_set(self):
 
-        n = 65000
+        n = 92000
         sizes = np.array(self.features[0:n][self.predict_var])
         x_train, x_test, y_train, y_test = train_test_split(self.features.drop(self.predict_var, axis=1)[0:n], sizes, test_size = 1-self.training_size)
 
@@ -36,12 +37,11 @@ class NetLauncher(object):
 
         return (x_train, y_train, x_test, y_test)
 
-    def compute_tiny(self):
-        #, batch_size=20, nb_epochs=5, learning_rate=1000):
-
+    def compute_tiny(self):#, batch_size=20, nb_epochs=5, learning_rate=1000):
+        e = clock()
         batch_size = self.batch_size
         nb_epochs = self.nb_epochs
-        learning_rate = self.learning_rate
+        learning_rate = self.learning_rate1
 
         training_x, training_y, testing_x, testing_y = self.create_train_test_set()
 
@@ -90,14 +90,20 @@ class NetLauncher(object):
             for i in range(nb_batch_test):
                 mape_test += sess.run(test_cost)
             print("Test final cost =", mape_test / nb_batch_test)
+            s = clock()
+            self.save_csv(mape_train / nb_batch_train, mape_test / nb_batch_test, s-e)
             return (mape_train / nb_batch_train, mape_test / nb_batch_test)
-
+			
+    def save_csv(self, mape_train, mape_test, time):
+        with open('res.csv','a') as fd:
+            fd.write('\n' + str(self.name_csv) + ',' + str(self.predict_var) + ',' + str(self.drop_feature) + ',' + str(self.nb_features)+ ',' + str(self.learning_rate1) + ',' + str(self.learning_rate2) + ',' + str(self.nb_node_layer1) + ',' + str(self.nb_node_layer2) + ',' + str(self.batch_size) + ',' + str(self.nb_epochs) + ',' + str(self.training_size) + ',' + str(mape_train) + ',' + str(mape_test) + ',' + str(time))
+            
     def compute_small(self):
             #batch_size=20, nb_epochs=5, learning_rate=10, nb_node_layer1=200):
-
+        e = clock()
         batch_size = self.batch_size
         nb_epochs = self.nb_epochs
-        learning_rate = self.learning_rate
+        learning_rate = self.learning_rate1
         nb_node_layer1 = self.nb_node_layer1
         training_x, training_y, testing_x, testing_y = self.create_train_test_set()
 
@@ -153,11 +159,13 @@ class NetLauncher(object):
             for i in range(nb_batch_test):
                 mape_test += sess.run(test_cost)
             print("Test final cost =", mape_test / nb_batch_test)
+            s = clock()
+            self.save_csv(mape_train / nb_batch_train, mape_test / nb_batch_test, s-e)
             return (mape_train / nb_batch_train, mape_test / nb_batch_test)
 
 
     def compute_standard(self):
-
+        e = clock()
         batch_size = self.batch_size
         nb_epochs = self.nb_epochs
         learning_rate1 = self.learning_rate1
@@ -241,11 +249,13 @@ class NetLauncher(object):
             for i in range(nb_batch_test):
                 mape_test += sess.run(test_cost)
             print("Test final cost =", mape_test / nb_batch_test)
+            s = clock()
+            self.save_csv(mape_train / nb_batch_train, mape_test / nb_batch_test, s-e)
             return (mape_train / nb_batch_train, mape_test / nb_batch_test)
 
     def launch(self):
-        if self.training_size < float(1/65):
+        if self.training_size < float(1/92):
             return self.compute_tiny()
-        if self.training_size > float(1/65) and self.training_size < float(10/65):
+        if self.training_size > float(1/92) and self.training_size < float(10/92):
             return self.compute_small()
         return self.compute_standard()
