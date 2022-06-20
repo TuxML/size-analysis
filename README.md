@@ -63,7 +63,7 @@ Thank you for contributing to TuxML!
 If you are interested, additional information is available at:
 [https://github.com/TuxML/tuxml/wiki/User_documentation](https://github.com/TuxML/tuxml/wiki/User_documentation)
 
-## 2. Models
+### 2. Models
 
 Finally, you will have to train a model on this dataset.
 
@@ -104,7 +104,7 @@ You can now exit the container and remove the image (to spare the memory of your
 
 Thank you for testing our artifact!
 
-## 3. Others
+## Others
 
 ### HOW TO analyse_kconfig_help_msg.py 
 
