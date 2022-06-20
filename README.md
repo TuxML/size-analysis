@@ -1,6 +1,6 @@
 # Accurate and Interpretable Learning of Linux Kernel Configuration Sizes
 
-This is the companion repository of the SPLC'22 $$40^{th}$$ submission.
+This is the companion repository of the SPLC'22 40^th^ submission.
 
 Further details are available in the related publication, see the [pdf file](https://github.com/TuxML/size-analysis/blob/master/SPLC_2022___Linux_Kernel_Size.pdf) in the main directory 
 
