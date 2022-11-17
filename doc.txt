@@ -1,0 +1,2975 @@
+----
+X86_LOCAL_APIC
+----
+
+X86_LOCAL_APIC has a negligible effect on the binary size of the resulting kernel.
+In general, activating X86_LOCAL_APIC increases the binary size by 40 MB (weak representativity score).
+
+----
+OPENVSWITCH
+----
+
+OPENVSWITCH has a negligible effect on the binary size of the resulting kernel.
+In general, activating OPENVSWITCH increases the binary size by 17 MB (weak representativity score).
+
+----
+TEXTSEARCH_FSM
+----
+
+TEXTSEARCH_FSM has a negligible effect on the binary size of the resulting kernel.
+In general, activating TEXTSEARCH_FSM increases the binary size by 13 MB (weak representativity score).
+
+----
+NETFILTER_XT_MATCH_TCPMSS
+----
+
+NETFILTER_XT_MATCH_TCPMSS has a negligible effect on the binary size of the resulting kernel.
+In general, activating NETFILTER_XT_MATCH_TCPMSS increases the binary size by 18 MB (weak representativity score).
+
+----
+MPLS
+----
+
+MPLS has a negligible effect on the binary size of the resulting kernel.
+In general, activating MPLS increases the binary size by 8 MB (medium representativity score).
+
+----
+NFC_HCI
+----
+
+NFC_HCI has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFC_HCI increases the binary size by 18 MB (weak representativity score).
+
+----
+NETFILTER_XT_MATCH_TIME
+----
+
+NETFILTER_XT_MATCH_TIME has a negligible effect on the binary size of the resulting kernel.
+In general, activating NETFILTER_XT_MATCH_TIME increases the binary size by 21 MB (weak representativity score).
+
+----
+NET_MPLS_GSO
+----
+
+NET_MPLS_GSO has a negligible effect on the binary size of the resulting kernel.
+In general, activating NET_MPLS_GSO increases the binary size by 13 MB (medium representativity score).
+
+----
+NFC_SHDLC
+----
+
+NFC_SHDLC has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFC_SHDLC increases the binary size by 5 MB (weak representativity score).
+
+----
+NETFILTER_XT_MATCH_U32
+----
+
+NETFILTER_XT_MATCH_U32 has a negligible effect on the binary size of the resulting kernel.
+In general, activating NETFILTER_XT_MATCH_U32 increases the binary size by 18 MB (weak representativity score).
+
+----
+OPENVSWITCH_GRE
+----
+
+OPENVSWITCH_GRE has a negligible effect on the binary size of the resulting kernel.
+In general, activating OPENVSWITCH_GRE increases the binary size by 23 MB (weak representativity score).
+
+----
+NFC_TRF7970A
+----
+
+NFC_TRF7970A has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFC_TRF7970A increases the binary size by 19 MB (weak representativity score).
+
+----
+OPENVSWITCH_VXLAN
+----
+
+OPENVSWITCH_VXLAN has a negligible effect on the binary size of the resulting kernel.
+In general, activating OPENVSWITCH_VXLAN increases the binary size by 25 MB (weak representativity score).
+
+----
+NFC_MEI_PHY
+----
+
+NFC_MEI_PHY has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFC_MEI_PHY increases the binary size by 28 MB (weak representativity score).
+
+----
+INTEL_MEI
+----
+
+INTEL_MEI has a negligible effect on the binary size of the resulting kernel.
+In general, activating INTEL_MEI increases the binary size by 16 MB (strong representativity score).
+
+----
+VXLAN
+----
+
+VXLAN has a negligible effect on the binary size of the resulting kernel.
+In general, activating VXLAN increases the binary size by 18 MB (weak representativity score).
+
+----
+IP_SET_BITMAP_IP
+----
+
+IP_SET_BITMAP_IP has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_SET_BITMAP_IP increases the binary size by 21 MB (weak representativity score).
+
+----
+OPENVSWITCH_GENEVE
+----
+
+OPENVSWITCH_GENEVE has a negligible effect on the binary size of the resulting kernel.
+In general, activating OPENVSWITCH_GENEVE increases the binary size by 23 MB (weak representativity score).
+
+----
+NFC_SIM
+----
+
+NFC_SIM has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFC_SIM increases the binary size by 21 MB (weak representativity score).
+
+----
+GENERIC_IRQ_EFFECTIVE_AFF_MASK
+----
+
+GENERIC_IRQ_EFFECTIVE_AFF_MASK has a negligible effect on the binary size of the resulting kernel.
+In general, activating GENERIC_IRQ_EFFECTIVE_AFF_MASK increases the binary size by 5 MB (strong representativity score).
+
+----
+IP_SET_BITMAP_IPMAC
+----
+
+IP_SET_BITMAP_IPMAC has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_SET_BITMAP_IPMAC increases the binary size by 18 MB (weak representativity score).
+
+----
+GENEVE
+----
+
+GENEVE has a negligible effect on the binary size of the resulting kernel.
+In general, activating GENEVE increases the binary size by 19 MB (weak representativity score).
+
+----
+SMP
+----
+
+SMP has a negligible effect on the binary size of the resulting kernel.
+In general, activating SMP increases the binary size by 5 MB (strong representativity score).
+
+----
+IP_SET_BITMAP_PORT
+----
+
+IP_SET_BITMAP_PORT has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_SET_BITMAP_PORT increases the binary size by 19 MB (weak representativity score).
+
+----
+VSOCKETS
+----
+
+VSOCKETS has a negligible effect on the binary size of the resulting kernel.
+In general, activating VSOCKETS increases the binary size by 13 MB (medium representativity score).
+
+----
+NFC_PORT100
+----
+
+NFC_PORT100 has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFC_PORT100 increases the binary size by 22 MB (weak representativity score).
+
+----
+GENERIC_IRQ_MIGRATION
+----
+
+GENERIC_IRQ_MIGRATION has a negligible effect on the binary size of the resulting kernel.
+In general, activating GENERIC_IRQ_MIGRATION increases the binary size by 5 MB (strong representativity score).
+
+----
+IP_SET_HASH_IP
+----
+
+IP_SET_HASH_IP has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_SET_HASH_IP increases the binary size by 21 MB (weak representativity score).
+
+----
+VMWARE_VMCI_VSOCKETS
+----
+
+VMWARE_VMCI_VSOCKETS has a negligible effect on the binary size of the resulting kernel.
+In general, activating VMWARE_VMCI_VSOCKETS increases the binary size by 26 MB (weak representativity score).
+
+----
+NFC_FDP
+----
+
+NFC_FDP has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFC_FDP increases the binary size by 19 MB (weak representativity score).
+
+----
+IP_SET_HASH_IPMARK
+----
+
+IP_SET_HASH_IPMARK has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_SET_HASH_IPMARK increases the binary size by 19 MB (weak representativity score).
+
+----
+NFC_FDP_I2C
+----
+
+NFC_FDP_I2C has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFC_FDP_I2C increases the binary size by 18 MB (weak representativity score).
+
+----
+VMWARE_VMCI
+----
+
+VMWARE_VMCI has a negligible effect on the binary size of the resulting kernel.
+In general, activating VMWARE_VMCI increases the binary size by 14 MB (medium representativity score).
+
+----
+IP_SET_HASH_IPPORT
+----
+
+IP_SET_HASH_IPPORT has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_SET_HASH_IPPORT increases the binary size by 20 MB (weak representativity score).
+
+----
+VIRTIO_VSOCKETS
+----
+
+VIRTIO_VSOCKETS has a negligible effect on the binary size of the resulting kernel.
+In general, activating VIRTIO_VSOCKETS increases the binary size by 18 MB (weak representativity score).
+
+----
+NFC_PN544
+----
+
+NFC_PN544 has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFC_PN544 increases the binary size by 22 MB (weak representativity score).
+
+----
+NEED_DMA_MAP_STATE
+----
+
+NEED_DMA_MAP_STATE has a negligible effect on the binary size of the resulting kernel.
+In general, activating NEED_DMA_MAP_STATE increases the binary size by 34 MB (weak representativity score).
+
+----
+GENERIC_PENDING_IRQ
+----
+
+GENERIC_PENDING_IRQ has a negligible effect on the binary size of the resulting kernel.
+In general, activating GENERIC_PENDING_IRQ increases the binary size by 5 MB (strong representativity score).
+
+----
+IP_SET_HASH_IPPORTIP
+----
+
+IP_SET_HASH_IPPORTIP has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_SET_HASH_IPPORTIP increases the binary size by 18 MB (weak representativity score).
+
+----
+VIRTIO_VSOCKETS_COMMON
+----
+
+VIRTIO_VSOCKETS_COMMON has a negligible effect on the binary size of the resulting kernel.
+In general, activating VIRTIO_VSOCKETS_COMMON increases the binary size by 17 MB (weak representativity score).
+
+----
+NFC_PN544_I2C
+----
+
+NFC_PN544_I2C has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFC_PN544_I2C increases the binary size by 19 MB (weak representativity score).
+
+----
+NETLINK_DIAG
+----
+
+NETLINK_DIAG has a negligible effect on the binary size of the resulting kernel.
+In general, activating NETLINK_DIAG increases the binary size by 13 MB (medium representativity score).
+
+----
+NFC_PN544_MEI
+----
+
+NFC_PN544_MEI has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFC_PN544_MEI increases the binary size by 28 MB (weak representativity score).
+
+----
+INTEL_IOMMU
+----
+
+INTEL_IOMMU has a negligible effect on the binary size of the resulting kernel.
+In general, activating INTEL_IOMMU increases the binary size by 8 MB (weak representativity score).
+
+----
+IP_SET_HASH_IPPORTNET
+----
+
+IP_SET_HASH_IPPORTNET has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_SET_HASH_IPPORTNET increases the binary size by 16 MB (weak representativity score).
+
+----
+MPLS_ROUTING
+----
+
+MPLS_ROUTING has a negligible effect on the binary size of the resulting kernel.
+In general, activating MPLS_ROUTING increases the binary size by 12 MB (weak representativity score).
+
+----
+NFC_PN533
+----
+
+NFC_PN533 has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFC_PN533 increases the binary size by 20 MB (weak representativity score).
+
+----
+DMA_API_DEBUG
+----
+
+DMA_API_DEBUG has a negligible effect on the binary size of the resulting kernel.
+In general, activating DMA_API_DEBUG increases the binary size by 689 kB (strong representativity score).
+
+----
+SWIOTLB
+----
+
+SWIOTLB has a negligible effect on the binary size of the resulting kernel.
+In general, activating SWIOTLB increases the binary size by 25 MB (weak representativity score).
+
+----
+IP_SET_HASH_IPMAC
+----
+
+IP_SET_HASH_IPMAC has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_SET_HASH_IPMAC increases the binary size by 19 MB (weak representativity score).
+
+----
+MPLS_IPTUNNEL
+----
+
+MPLS_IPTUNNEL has a negligible effect on the binary size of the resulting kernel.
+In general, activating MPLS_IPTUNNEL increases the binary size by 16 MB (weak representativity score).
+
+----
+NFC_PN533_USB
+----
+
+NFC_PN533_USB has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFC_PN533_USB increases the binary size by 22 MB (weak representativity score).
+
+----
+IP_SET_HASH_MAC
+----
+
+IP_SET_HASH_MAC has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_SET_HASH_MAC increases the binary size by 19 MB (weak representativity score).
+
+----
+HSR
+----
+
+HSR has a negligible effect on the binary size of the resulting kernel.
+In general, activating HSR increases the binary size by 13 MB (medium representativity score).
+
+----
+NFC_PN533_I2C
+----
+
+NFC_PN533_I2C has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFC_PN533_I2C increases the binary size by 19 MB (weak representativity score).
+
+----
+X86_POWERNOW_K7_ACPI
+----
+
+X86_POWERNOW_K7_ACPI has a negligible effect on the binary size of the resulting kernel.
+In general, activating X86_POWERNOW_K7_ACPI increases the binary size by 5 MB (weak representativity score).
+
+----
+PATA_SERVERWORKS
+----
+
+PATA_SERVERWORKS has a negligible effect on the binary size of the resulting kernel.
+In general, activating PATA_SERVERWORKS increases the binary size by 24 MB (weak representativity score).
+
+----
+ATH9K_DYNACK
+----
+
+ATH9K_DYNACK has a negligible effect on the binary size of the resulting kernel.
+In general, activating ATH9K_DYNACK increases the binary size by 17 MB (weak representativity score).
+
+----
+SERIAL_FSL_LPUART_CONSOLE
+----
+
+SERIAL_FSL_LPUART_CONSOLE has a negligible effect on the binary size of the resulting kernel.
+In general, activating SERIAL_FSL_LPUART_CONSOLE increases the binary size by 5 MB (weak representativity score).
+
+----
+OMAP_WATCHDOG
+----
+
+OMAP_WATCHDOG has a negligible effect on the binary size of the resulting kernel.
+In general, activating OMAP_WATCHDOG reduces the binary size by -13 MB (weak representativity score).
+
+----
+DVB_PLL
+----
+
+DVB_PLL has a negligible effect on the binary size of the resulting kernel.
+In general, activating DVB_PLL increases the binary size by 10 MB (weak representativity score).
+
+----
+CHROMEOS_LAPTOP
+----
+
+CHROMEOS_LAPTOP has a negligible effect on the binary size of the resulting kernel.
+In general, activating CHROMEOS_LAPTOP increases the binary size by 7 MB (medium representativity score).
+
+----
+STACK_TRACER
+----
+
+STACK_TRACER has a negligible effect on the binary size of the resulting kernel.
+In general, activating STACK_TRACER increases the binary size by 3 MB (medium representativity score).
+
+----
+X86_POWERNOW_K8
+----
+
+X86_POWERNOW_K8 has a negligible effect on the binary size of the resulting kernel.
+In general, activating X86_POWERNOW_K8 increases the binary size by 17 MB (weak representativity score).
+
+----
+BINFMT_AOUT
+----
+
+BINFMT_AOUT has a negligible effect on the binary size of the resulting kernel.
+In general, activating BINFMT_AOUT reduces the binary size by -11 MB (weak representativity score).
+
+----
+PATA_SIL680
+----
+
+PATA_SIL680 has a negligible effect on the binary size of the resulting kernel.
+In general, activating PATA_SIL680 increases the binary size by 23 MB (weak representativity score).
+
+----
+ATH9K_WOW
+----
+
+ATH9K_WOW has a negligible effect on the binary size of the resulting kernel.
+In general, activating ATH9K_WOW increases the binary size by 16 MB (weak representativity score).
+
+----
+SERIAL_CONEXANT_DIGICOLOR
+----
+
+SERIAL_CONEXANT_DIGICOLOR has a negligible effect on the binary size of the resulting kernel.
+In general, activating SERIAL_CONEXANT_DIGICOLOR increases the binary size by 7 MB (weak representativity score).
+
+----
+MEDIA_TUNER_MT2060
+----
+
+MEDIA_TUNER_MT2060 has a negligible effect on the binary size of the resulting kernel.
+In general, activating MEDIA_TUNER_MT2060 increases the binary size by 6 MB (medium representativity score).
+
+----
+CHROMEOS_PSTORE
+----
+
+CHROMEOS_PSTORE has a negligible effect on the binary size of the resulting kernel.
+In general, activating CHROMEOS_PSTORE increases the binary size by 6 MB (strong representativity score).
+
+----
+BLK_DEV_IO_TRACE
+----
+
+BLK_DEV_IO_TRACE has a negligible effect on the binary size of the resulting kernel.
+In general, activating BLK_DEV_IO_TRACE increases the binary size by 7 MB (weak representativity score).
+
+----
+X86_AMD_FREQ_SENSITIVITY
+----
+
+X86_AMD_FREQ_SENSITIVITY has a negligible effect on the binary size of the resulting kernel.
+In general, activating X86_AMD_FREQ_SENSITIVITY increases the binary size by 19 MB (weak representativity score).
+
+----
+PATA_TOSHIBA
+----
+
+PATA_TOSHIBA has a negligible effect on the binary size of the resulting kernel.
+In general, activating PATA_TOSHIBA increases the binary size by 20 MB (weak representativity score).
+
+----
+ATH9K_RFKILL
+----
+
+ATH9K_RFKILL has a negligible effect on the binary size of the resulting kernel.
+In general, activating ATH9K_RFKILL increases the binary size by 10 MB (weak representativity score).
+
+----
+SERIAL_CONEXANT_DIGICOLOR_CONSOLE
+----
+
+SERIAL_CONEXANT_DIGICOLOR_CONSOLE has a negligible effect on the binary size of the resulting kernel.
+In general, activating SERIAL_CONEXANT_DIGICOLOR_CONSOLE increases the binary size by 6 MB (weak representativity score).
+
+----
+DVB_USB_DIBUSB_MB
+----
+
+DVB_USB_DIBUSB_MB has a negligible effect on the binary size of the resulting kernel.
+In general, activating DVB_USB_DIBUSB_MB increases the binary size by 19 MB (weak representativity score).
+
+----
+CROS_EC_CHARDEV
+----
+
+CROS_EC_CHARDEV has a negligible effect on the binary size of the resulting kernel.
+In general, activating CROS_EC_CHARDEV increases the binary size by 9 MB (medium representativity score).
+
+----
+KPROBE_EVENTS
+----
+
+KPROBE_EVENTS has a negligible effect on the binary size of the resulting kernel.
+In general, activating KPROBE_EVENTS reduces the binary size by -11 MB (weak representativity score).
+
+----
+X86_GX_SUSPMOD
+----
+
+X86_GX_SUSPMOD has a negligible effect on the binary size of the resulting kernel.
+In general, activating X86_GX_SUSPMOD reduces the binary size by -7 MB (weak representativity score).
+
+----
+PATA_TRIFLEX
+----
+
+PATA_TRIFLEX has a negligible effect on the binary size of the resulting kernel.
+In general, activating PATA_TRIFLEX increases the binary size by 24 MB (weak representativity score).
+
+----
+ATH9K_CHANNEL_CONTEXT
+----
+
+ATH9K_CHANNEL_CONTEXT has a negligible effect on the binary size of the resulting kernel.
+In general, activating ATH9K_CHANNEL_CONTEXT increases the binary size by 13 MB (weak representativity score).
+
+----
+SERIAL_ST_ASC
+----
+
+SERIAL_ST_ASC has a negligible effect on the binary size of the resulting kernel.
+In general, activating SERIAL_ST_ASC reduces the binary size by -12 MB (weak representativity score).
+
+----
+DAVINCI_WATCHDOG
+----
+
+DAVINCI_WATCHDOG has a negligible effect on the binary size of the resulting kernel.
+In general, activating DAVINCI_WATCHDOG reduces the binary size by -13 MB (weak representativity score).
+
+----
+DVB_DIB3000MB
+----
+
+DVB_DIB3000MB has a negligible effect on the binary size of the resulting kernel.
+In general, activating DVB_DIB3000MB increases the binary size by 6 MB (weak representativity score).
+
+----
+RTC_SYSTOHC
+----
+
+RTC_SYSTOHC has a negligible effect on the binary size of the resulting kernel.
+In general, activating RTC_SYSTOHC increases the binary size by 341 kB (medium representativity score).
+
+----
+CROS_EC_LPC
+----
+
+CROS_EC_LPC has a negligible effect on the binary size of the resulting kernel.
+In general, activating CROS_EC_LPC increases the binary size by 17 MB (weak representativity score).
+
+----
+PROBE_EVENTS
+----
+
+PROBE_EVENTS has a negligible effect on the binary size of the resulting kernel.
+In general, activating PROBE_EVENTS increases the binary size by 855 kB (medium representativity score).
+
+----
+X86_SPEEDSTEP_CENTRINO
+----
+
+X86_SPEEDSTEP_CENTRINO has a negligible effect on the binary size of the resulting kernel.
+In general, activating X86_SPEEDSTEP_CENTRINO increases the binary size by 16 MB (weak representativity score).
+
+----
+BINFMT_MISC
+----
+
+BINFMT_MISC has a negligible effect on the binary size of the resulting kernel.
+In general, activating BINFMT_MISC increases the binary size by 7 MB (strong representativity score).
+
+----
+PATA_VIA
+----
+
+PATA_VIA has a negligible effect on the binary size of the resulting kernel.
+In general, activating PATA_VIA increases the binary size by 23 MB (weak representativity score).
+
+----
+ATH9K_PCOEM
+----
+
+ATH9K_PCOEM has a negligible effect on the binary size of the resulting kernel.
+In general, activating ATH9K_PCOEM increases the binary size by 13 MB (weak representativity score).
+
+----
+SERIAL_ST_ASC_CONSOLE
+----
+
+SERIAL_ST_ASC_CONSOLE has a negligible effect on the binary size of the resulting kernel.
+In general, activating SERIAL_ST_ASC_CONSOLE reduces the binary size by -11 MB (weak representativity score).
+
+----
+DVB_USB_DIBUSB_MB_FAULTY
+----
+
+DVB_USB_DIBUSB_MB_FAULTY has a negligible effect on the binary size of the resulting kernel.
+In general, activating DVB_USB_DIBUSB_MB_FAULTY increases the binary size by 10 MB (weak representativity score).
+
+----
+CROS_EC_LPC_MEC
+----
+
+CROS_EC_LPC_MEC has a negligible effect on the binary size of the resulting kernel.
+In general, activating CROS_EC_LPC_MEC increases the binary size by 7 MB (weak representativity score).
+
+----
+UPROBE_EVENTS
+----
+
+UPROBE_EVENTS has a negligible effect on the binary size of the resulting kernel.
+In general, activating UPROBE_EVENTS increases the binary size by 2 MB (medium representativity score).
+
+----
+X86_SPEEDSTEP_CENTRINO_TABLE
+----
+
+X86_SPEEDSTEP_CENTRINO_TABLE has a negligible effect on the binary size of the resulting kernel.
+In general, activating X86_SPEEDSTEP_CENTRINO_TABLE reduces the binary size by -6 MB (weak representativity score).
+
+----
+ATH9K_HTC_DEBUGFS
+----
+
+ATH9K_HTC_DEBUGFS has a negligible effect on the binary size of the resulting kernel.
+In general, activating ATH9K_HTC_DEBUGFS increases the binary size by 12 MB (weak representativity score).
+
+----
+SERIAL_MEN_Z135
+----
+
+SERIAL_MEN_Z135 has a negligible effect on the binary size of the resulting kernel.
+In general, activating SERIAL_MEN_Z135 increases the binary size by 10 MB (medium representativity score).
+
+----
+RN5T618_WATCHDOG
+----
+
+RN5T618_WATCHDOG has a negligible effect on the binary size of the resulting kernel.
+In general, activating RN5T618_WATCHDOG reduces the binary size by -5 MB (weak representativity score).
+
+----
+DVB_USB_DIBUSB_MC
+----
+
+DVB_USB_DIBUSB_MC has a negligible effect on the binary size of the resulting kernel.
+In general, activating DVB_USB_DIBUSB_MC increases the binary size by 18 MB (weak representativity score).
+
+----
+RTC_DEBUG
+----
+
+RTC_DEBUG has a negligible effect on the binary size of the resulting kernel.
+In general, activating RTC_DEBUG increases the binary size by 1 MB (medium representativity score).
+
+----
+CROS_KBD_LED_BACKLIGHT
+----
+
+CROS_KBD_LED_BACKLIGHT has a negligible effect on the binary size of the resulting kernel.
+In general, activating CROS_KBD_LED_BACKLIGHT increases the binary size by 15 MB (weak representativity score).
+
+----
+BPF_EVENTS
+----
+
+BPF_EVENTS has a negligible effect on the binary size of the resulting kernel.
+In general, activating BPF_EVENTS increases the binary size by 2 MB (weak representativity score).
+
+----
+X86_SPEEDSTEP_ICH
+----
+
+X86_SPEEDSTEP_ICH has a negligible effect on the binary size of the resulting kernel.
+In general, activating X86_SPEEDSTEP_ICH reduces the binary size by -14 MB (weak representativity score).
+
+----
+IA32_AOUT
+----
+
+IA32_AOUT has a negligible effect on the binary size of the resulting kernel.
+In general, activating IA32_AOUT increases the binary size by 5 MB (medium representativity score).
+
+----
+PATA_WINBOND
+----
+
+PATA_WINBOND has a negligible effect on the binary size of the resulting kernel.
+In general, activating PATA_WINBOND increases the binary size by 23 MB (weak representativity score).
+
+----
+MFD_RN5T618
+----
+
+MFD_RN5T618 has a negligible effect on the binary size of the resulting kernel.
+In general, activating MFD_RN5T618 increases the binary size by 7 MB (medium representativity score).
+
+----
+DVB_USB_DIB0700
+----
+
+DVB_USB_DIB0700 has a negligible effect on the binary size of the resulting kernel.
+In general, activating DVB_USB_DIB0700 increases the binary size by 15 MB (weak representativity score).
+
+----
+RTC_NVMEM
+----
+
+RTC_NVMEM has a negligible effect on the binary size of the resulting kernel.
+In general, activating RTC_NVMEM increases the binary size by 760 kB (medium representativity score).
+
+----
+HAVE_CLK_PREPARE
+----
+
+HAVE_CLK_PREPARE has a negligible effect on the binary size of the resulting kernel.
+In general, activating HAVE_CLK_PREPARE increases the binary size by 14 MB (strong representativity score).
+
+----
+MCB
+----
+
+MCB has a negligible effect on the binary size of the resulting kernel.
+In general, activating MCB increases the binary size by 8 MB (strong representativity score).
+
+----
+FUNCTION_PROFILER
+----
+
+FUNCTION_PROFILER has a negligible effect on the binary size of the resulting kernel.
+In general, activating FUNCTION_PROFILER increases the binary size by 2 MB (medium representativity score).
+
+----
+X86_SPEEDSTEP_SMI
+----
+
+X86_SPEEDSTEP_SMI has a negligible effect on the binary size of the resulting kernel.
+In general, activating X86_SPEEDSTEP_SMI increases the binary size by 1 MB (weak representativity score).
+
+----
+X86_X32
+----
+
+X86_X32 has a negligible effect on the binary size of the resulting kernel.
+In general, activating X86_X32 increases the binary size by 246 kB (strong representativity score).
+
+----
+ATH9K_HWRNG
+----
+
+ATH9K_HWRNG has a negligible effect on the binary size of the resulting kernel.
+In general, activating ATH9K_HWRNG increases the binary size by 16 MB (weak representativity score).
+
+----
+SUNXI_WATCHDOG
+----
+
+SUNXI_WATCHDOG has a negligible effect on the binary size of the resulting kernel.
+In general, activating SUNXI_WATCHDOG reduces the binary size by -13 MB (weak representativity score).
+
+----
+DVB_DIB7000P
+----
+
+DVB_DIB7000P has a negligible effect on the binary size of the resulting kernel.
+In general, activating DVB_DIB7000P increases the binary size by 7 MB (weak representativity score).
+
+----
+RTC_INTF_SYSFS
+----
+
+RTC_INTF_SYSFS has a negligible effect on the binary size of the resulting kernel.
+In general, activating RTC_INTF_SYSFS increases the binary size by 800 kB (medium representativity score).
+
+----
+COMMON_CLK_WM831X
+----
+
+COMMON_CLK_WM831X has a negligible effect on the binary size of the resulting kernel.
+In general, activating COMMON_CLK_WM831X increases the binary size by 14 MB (medium representativity score).
+
+----
+FTRACE_MCOUNT_RECORD
+----
+
+FTRACE_MCOUNT_RECORD has a negligible effect on the binary size of the resulting kernel.
+In general, activating FTRACE_MCOUNT_RECORD increases the binary size by 4 MB (medium representativity score).
+
+----
+X86_P4_CLOCKMOD
+----
+
+X86_P4_CLOCKMOD has a negligible effect on the binary size of the resulting kernel.
+In general, activating X86_P4_CLOCKMOD increases the binary size by 6 MB (medium representativity score).
+
+----
+COMPAT_FOR_U64_ALIGNMENT
+----
+
+COMPAT_FOR_U64_ALIGNMENT has a negligible effect on the binary size of the resulting kernel.
+In general, activating COMPAT_FOR_U64_ALIGNMENT increases the binary size by 1 MB (medium representativity score).
+
+----
+PATA_CMD640_PCI
+----
+
+PATA_CMD640_PCI has a negligible effect on the binary size of the resulting kernel.
+In general, activating PATA_CMD640_PCI increases the binary size by 19 MB (weak representativity score).
+
+----
+HW_RANDOM
+----
+
+HW_RANDOM has a negligible effect on the binary size of the resulting kernel.
+In general, activating HW_RANDOM increases the binary size by 9 MB (strong representativity score).
+
+----
+DVB_DIB7000M
+----
+
+DVB_DIB7000M has a negligible effect on the binary size of the resulting kernel.
+In general, activating DVB_DIB7000M increases the binary size by 6 MB (weak representativity score).
+
+----
+RTC_INTF_PROC
+----
+
+RTC_INTF_PROC has a negligible effect on the binary size of the resulting kernel.
+In general, activating RTC_INTF_PROC increases the binary size by 654 kB (weak representativity score).
+
+----
+FTRACE_SELFTEST
+----
+
+FTRACE_SELFTEST has a negligible effect on the binary size of the resulting kernel.
+In general, activating FTRACE_SELFTEST increases the binary size by 3 MB (medium representativity score).
+
+----
+X86_CPUFREQ_NFORCE2
+----
+
+X86_CPUFREQ_NFORCE2 has a negligible effect on the binary size of the resulting kernel.
+In general, activating X86_CPUFREQ_NFORCE2 reduces the binary size by -4 MB (weak representativity score).
+
+----
+SYSVIPC_COMPAT
+----
+
+SYSVIPC_COMPAT has a negligible effect on the binary size of the resulting kernel.
+In general, activating SYSVIPC_COMPAT increases the binary size by 411 kB (strong representativity score).
+
+----
+CARL9170
+----
+
+CARL9170 has a negligible effect on the binary size of the resulting kernel.
+In general, activating CARL9170 increases the binary size by 33 MB (weak representativity score).
+
+----
+TWL4030_WATCHDOG
+----
+
+TWL4030_WATCHDOG has a negligible effect on the binary size of the resulting kernel.
+In general, activating TWL4030_WATCHDOG increases the binary size by 8 MB (weak representativity score).
+
+----
+DVB_DIB8000
+----
+
+DVB_DIB8000 has a negligible effect on the binary size of the resulting kernel.
+In general, activating DVB_DIB8000 increases the binary size by 5 MB (weak representativity score).
+
+----
+RTC_INTF_DEV
+----
+
+RTC_INTF_DEV has a negligible effect on the binary size of the resulting kernel.
+In general, activating RTC_INTF_DEV increases the binary size by 771 kB (medium representativity score).
+
+----
+COMMON_CLK_VERSATILE
+----
+
+COMMON_CLK_VERSATILE has a negligible effect on the binary size of the resulting kernel.
+In general, activating COMMON_CLK_VERSATILE reduces the binary size by -12 MB (weak representativity score).
+
+----
+FTRACE_STARTUP_TEST
+----
+
+FTRACE_STARTUP_TEST has a negligible effect on the binary size of the resulting kernel.
+In general, activating FTRACE_STARTUP_TEST increases the binary size by 3 MB (medium representativity score).
+
+----
+X86_LONGRUN
+----
+
+X86_LONGRUN has a negligible effect on the binary size of the resulting kernel.
+In general, activating X86_LONGRUN reduces the binary size by -3 MB (weak representativity score).
+
+----
+HAVE_ATOMIC_IOMAP
+----
+
+HAVE_ATOMIC_IOMAP has a negligible effect on the binary size of the resulting kernel.
+In general, activating HAVE_ATOMIC_IOMAP reduces the binary size by -24 MB (weak representativity score).
+
+----
+CARL9170_LEDS
+----
+
+CARL9170_LEDS has a negligible effect on the binary size of the resulting kernel.
+In general, activating CARL9170_LEDS increases the binary size by 13 MB (weak representativity score).
+
+----
+SERIAL_STM32
+----
+
+SERIAL_STM32 has a negligible effect on the binary size of the resulting kernel.
+In general, activating SERIAL_STM32 reduces the binary size by -12 MB (weak representativity score).
+
+----
+STMP3XXX_RTC_WATCHDOG
+----
+
+STMP3XXX_RTC_WATCHDOG has a negligible effect on the binary size of the resulting kernel.
+In general, activating STMP3XXX_RTC_WATCHDOG reduces the binary size by -13 MB (weak representativity score).
+
+----
+DVB_TUNER_DIB0070
+----
+
+DVB_TUNER_DIB0070 has a negligible effect on the binary size of the resulting kernel.
+In general, activating DVB_TUNER_DIB0070 increases the binary size by 7 MB (weak representativity score).
+
+----
+RTC_INTF_DEV_UIE_EMUL
+----
+
+RTC_INTF_DEV_UIE_EMUL has a negligible effect on the binary size of the resulting kernel.
+In general, activating RTC_INTF_DEV_UIE_EMUL increases the binary size by 1 MB (weak representativity score).
+
+----
+CLK_SP810
+----
+
+CLK_SP810 has a negligible effect on the binary size of the resulting kernel.
+In general, activating CLK_SP810 reduces the binary size by -11 MB (weak representativity score).
+
+----
+EVENT_TRACE_TEST_SYSCALLS
+----
+
+EVENT_TRACE_TEST_SYSCALLS has a negligible effect on the binary size of the resulting kernel.
+In general, activating EVENT_TRACE_TEST_SYSCALLS increases the binary size by 3 MB (weak representativity score).
+
+----
+X86_LONGHAUL
+----
+
+X86_LONGHAUL has a negligible effect on the binary size of the resulting kernel.
+In general, activating X86_LONGHAUL reduces the binary size by -10 MB (weak representativity score).
+
+----
+CARL9170_DEBUGFS
+----
+
+CARL9170_DEBUGFS has a negligible effect on the binary size of the resulting kernel.
+In general, activating CARL9170_DEBUGFS increases the binary size by 17 MB (weak representativity score).
+
+----
+SERIAL_STM32_CONSOLE
+----
+
+SERIAL_STM32_CONSOLE has a negligible effect on the binary size of the resulting kernel.
+In general, activating SERIAL_STM32_CONSOLE reduces the binary size by -11 MB (weak representativity score).
+
+----
+DVB_TUNER_DIB0090
+----
+
+DVB_TUNER_DIB0090 has a negligible effect on the binary size of the resulting kernel.
+In general, activating DVB_TUNER_DIB0090 increases the binary size by 5 MB (weak representativity score).
+
+----
+RTC_DRV_TEST
+----
+
+RTC_DRV_TEST has a negligible effect on the binary size of the resulting kernel.
+In general, activating RTC_DRV_TEST increases the binary size by 5 MB (medium representativity score).
+
+----
+RTC_DRV_STMP
+----
+
+RTC_DRV_STMP has a negligible effect on the binary size of the resulting kernel.
+In general, activating RTC_DRV_STMP reduces the binary size by -13 MB (weak representativity score).
+
+----
+MMIOTRACE
+----
+
+MMIOTRACE has a negligible effect on the binary size of the resulting kernel.
+In general, activating MMIOTRACE increases the binary size by 8 MB (weak representativity score).
+
+----
+NLATTR
+----
+
+NLATTR has a negligible effect on the binary size of the resulting kernel.
+In general, activating NLATTR increases the binary size by 10 MB (strong representativity score).
+
+----
+PATA_MPIIX
+----
+
+PATA_MPIIX has a negligible effect on the binary size of the resulting kernel.
+In general, activating PATA_MPIIX increases the binary size by 19 MB (weak representativity score).
+
+----
+CARL9170_WPC
+----
+
+CARL9170_WPC has a negligible effect on the binary size of the resulting kernel.
+In general, activating CARL9170_WPC increases the binary size by 13 MB (weak representativity score).
+
+----
+SERIAL_MVEBU_UART
+----
+
+SERIAL_MVEBU_UART has a negligible effect on the binary size of the resulting kernel.
+In general, activating SERIAL_MVEBU_UART reduces the binary size by -16 MB (weak representativity score).
+
+----
+NUC900_WATCHDOG
+----
+
+NUC900_WATCHDOG has a negligible effect on the binary size of the resulting kernel.
+In general, activating NUC900_WATCHDOG reduces the binary size by -13 MB (weak representativity score).
+
+----
+MEDIA_TUNER_MT2266
+----
+
+MEDIA_TUNER_MT2266 has a negligible effect on the binary size of the resulting kernel.
+In general, activating MEDIA_TUNER_MT2266 increases the binary size by 4 MB (medium representativity score).
+
+----
+RTC_DRV_88PM860X
+----
+
+RTC_DRV_88PM860X has a negligible effect on the binary size of the resulting kernel.
+In general, activating RTC_DRV_88PM860X increases the binary size by 7 MB (weak representativity score).
+
+----
+COMMON_CLK_MAX77686
+----
+
+COMMON_CLK_MAX77686 has a negligible effect on the binary size of the resulting kernel.
+In general, activating COMMON_CLK_MAX77686 increases the binary size by 4 MB (medium representativity score).
+
+----
+GENERIC_NET_UTILS
+----
+
+GENERIC_NET_UTILS has a negligible effect on the binary size of the resulting kernel.
+In general, activating GENERIC_NET_UTILS increases the binary size by 4 MB (strong representativity score).
+
+----
+PATA_NS87410
+----
+
+PATA_NS87410 has a negligible effect on the binary size of the resulting kernel.
+In general, activating PATA_NS87410 increases the binary size by 20 MB (weak representativity score).
+
+----
+CARL9170_HWRNG
+----
+
+CARL9170_HWRNG has a negligible effect on the binary size of the resulting kernel.
+In general, activating CARL9170_HWRNG increases the binary size by 17 MB (weak representativity score).
+
+----
+SERIAL_MVEBU_CONSOLE
+----
+
+SERIAL_MVEBU_CONSOLE has a negligible effect on the binary size of the resulting kernel.
+In general, activating SERIAL_MVEBU_CONSOLE reduces the binary size by -14 MB (weak representativity score).
+
+----
+TS4800_WATCHDOG
+----
+
+TS4800_WATCHDOG has a negligible effect on the binary size of the resulting kernel.
+In general, activating TS4800_WATCHDOG reduces the binary size by -11 MB (weak representativity score).
+
+----
+MEDIA_TUNER_XC4000
+----
+
+MEDIA_TUNER_XC4000 has a negligible effect on the binary size of the resulting kernel.
+In general, activating MEDIA_TUNER_XC4000 increases the binary size by 11 MB (strong representativity score).
+
+----
+RTC_DRV_88PM80X
+----
+
+RTC_DRV_88PM80X has a negligible effect on the binary size of the resulting kernel.
+In general, activating RTC_DRV_88PM80X increases the binary size by 10 MB (weak representativity score).
+
+----
+COMMON_CLK_RK808
+----
+
+COMMON_CLK_RK808 has a negligible effect on the binary size of the resulting kernel.
+In general, activating COMMON_CLK_RK808 increases the binary size by 17 MB (weak representativity score).
+
+----
+TRACING_MAP
+----
+
+TRACING_MAP has a negligible effect on the binary size of the resulting kernel.
+In general, activating TRACING_MAP increases the binary size by 2 MB (medium representativity score).
+
+----
+X86_SPEEDSTEP_LIB
+----
+
+X86_SPEEDSTEP_LIB has a negligible effect on the binary size of the resulting kernel.
+In general, activating X86_SPEEDSTEP_LIB increases the binary size by 6 MB (medium representativity score).
+
+----
+COMPAT_NETLINK_MESSAGES
+----
+
+COMPAT_NETLINK_MESSAGES has a negligible effect on the binary size of the resulting kernel.
+In general, activating COMPAT_NETLINK_MESSAGES increases the binary size by 10 MB (weak representativity score).
+
+----
+PATA_OPTI
+----
+
+PATA_OPTI has a negligible effect on the binary size of the resulting kernel.
+In general, activating PATA_OPTI increases the binary size by 21 MB (weak representativity score).
+
+----
+ATH6KL
+----
+
+ATH6KL has a negligible effect on the binary size of the resulting kernel.
+In general, activating ATH6KL increases the binary size by 29 MB (weak representativity score).
+
+----
+SERIAL_OWL
+----
+
+SERIAL_OWL has a negligible effect on the binary size of the resulting kernel.
+In general, activating SERIAL_OWL reduces the binary size by -16 MB (weak representativity score).
+
+----
+DVB_USB_UMT_010
+----
+
+DVB_USB_UMT_010 has a negligible effect on the binary size of the resulting kernel.
+In general, activating DVB_USB_UMT_010 increases the binary size by 18 MB (weak representativity score).
+
+----
+RTC_DRV_ABB5ZES3
+----
+
+RTC_DRV_ABB5ZES3 has a negligible effect on the binary size of the resulting kernel.
+In general, activating RTC_DRV_ABB5ZES3 increases the binary size by 8 MB (medium representativity score).
+
+----
+COMMON_CLK_HI655X
+----
+
+COMMON_CLK_HI655X has a negligible effect on the binary size of the resulting kernel.
+In general, activating COMMON_CLK_HI655X reduces the binary size by -8 MB (weak representativity score).
+
+----
+HIST_TRIGGERS
+----
+
+HIST_TRIGGERS has a negligible effect on the binary size of the resulting kernel.
+In general, activating HIST_TRIGGERS increases the binary size by 2 MB (medium representativity score).
+
+----
+X86_SPEEDSTEP_RELAXED_CAP_CHECK
+----
+
+X86_SPEEDSTEP_RELAXED_CAP_CHECK has a negligible effect on the binary size of the resulting kernel.
+In general, activating X86_SPEEDSTEP_RELAXED_CAP_CHECK reduces the binary size by -19 MB (weak representativity score).
+
+----
+WEXT_CORE
+----
+
+WEXT_CORE has a negligible effect on the binary size of the resulting kernel.
+In general, activating WEXT_CORE increases the binary size by 10 MB (medium representativity score).
+
+----
+ATH6KL_SDIO
+----
+
+ATH6KL_SDIO has a negligible effect on the binary size of the resulting kernel.
+In general, activating ATH6KL_SDIO increases the binary size by 37 MB (weak representativity score).
+
+----
+TS72XX_WATCHDOG
+----
+
+TS72XX_WATCHDOG has a negligible effect on the binary size of the resulting kernel.
+In general, activating TS72XX_WATCHDOG reduces the binary size by -13 MB (weak representativity score).
+
+----
+DVB_MT352
+----
+
+DVB_MT352 has a negligible effect on the binary size of the resulting kernel.
+In general, activating DVB_MT352 increases the binary size by 9 MB (weak representativity score).
+
+----
+RTC_DRV_ABX80X
+----
+
+RTC_DRV_ABX80X has a negligible effect on the binary size of the resulting kernel.
+In general, activating RTC_DRV_ABX80X increases the binary size by 7 MB (medium representativity score).
+
+----
+COMMON_CLK_SI5351
+----
+
+COMMON_CLK_SI5351 has a negligible effect on the binary size of the resulting kernel.
+In general, activating COMMON_CLK_SI5351 increases the binary size by 16 MB (medium representativity score).
+
+----
+NET_INGRESS
+----
+
+NET_INGRESS has a negligible effect on the binary size of the resulting kernel.
+In general, activating NET_INGRESS increases the binary size by 7 MB (weak representativity score).
+
+----
+ATH6KL_USB
+----
+
+ATH6KL_USB has a negligible effect on the binary size of the resulting kernel.
+In general, activating ATH6KL_USB increases the binary size by 41 MB (weak representativity score).
+
+----
+SERIAL_OWL_CONSOLE
+----
+
+SERIAL_OWL_CONSOLE has a negligible effect on the binary size of the resulting kernel.
+In general, activating SERIAL_OWL_CONSOLE reduces the binary size by -14 MB (weak representativity score).
+
+----
+DVB_USB_CXUSB
+----
+
+DVB_USB_CXUSB has a negligible effect on the binary size of the resulting kernel.
+In general, activating DVB_USB_CXUSB increases the binary size by 20 MB (weak representativity score).
+
+----
+COMMON_CLK_SI514
+----
+
+COMMON_CLK_SI514 has a negligible effect on the binary size of the resulting kernel.
+In general, activating COMMON_CLK_SI514 increases the binary size by 14 MB (weak representativity score).
+
+----
+TRACEPOINT_BENCHMARK
+----
+
+TRACEPOINT_BENCHMARK has a negligible effect on the binary size of the resulting kernel.
+In general, activating TRACEPOINT_BENCHMARK increases the binary size by 2 MB (medium representativity score).
+
+----
+DRM_VIA
+----
+
+DRM_VIA has a negligible effect on the binary size of the resulting kernel.
+In general, activating DRM_VIA increases the binary size by 23 MB (weak representativity score).
+
+----
+SND_HDA_CODEC_ANALOG
+----
+
+SND_HDA_CODEC_ANALOG has a negligible effect on the binary size of the resulting kernel.
+In general, activating SND_HDA_CODEC_ANALOG increases the binary size by 23 MB (weak representativity score).
+
+----
+DRM_SAVAGE
+----
+
+DRM_SAVAGE has a negligible effect on the binary size of the resulting kernel.
+In general, activating DRM_SAVAGE increases the binary size by 23 MB (weak representativity score).
+
+----
+SND_HDA_CODEC_SIGMATEL
+----
+
+SND_HDA_CODEC_SIGMATEL has a negligible effect on the binary size of the resulting kernel.
+In general, activating SND_HDA_CODEC_SIGMATEL increases the binary size by 24 MB (weak representativity score).
+
+----
+FB_NOTIFY
+----
+
+FB_NOTIFY has a negligible effect on the binary size of the resulting kernel.
+In general, activating FB_NOTIFY increases the binary size by 5 MB (weak representativity score).
+
+----
+SND_HDA_CODEC_VIA
+----
+
+SND_HDA_CODEC_VIA has a negligible effect on the binary size of the resulting kernel.
+In general, activating SND_HDA_CODEC_VIA increases the binary size by 23 MB (weak representativity score).
+
+----
+FIRMWARE_EDID
+----
+
+FIRMWARE_EDID has a negligible effect on the binary size of the resulting kernel.
+In general, activating FIRMWARE_EDID increases the binary size by 716 kB (strong representativity score).
+
+----
+SND_HDA_CODEC_HDMI
+----
+
+SND_HDA_CODEC_HDMI has a negligible effect on the binary size of the resulting kernel.
+In general, activating SND_HDA_CODEC_HDMI increases the binary size by 23 MB (weak representativity score).
+
+----
+FB_DDC
+----
+
+FB_DDC has a negligible effect on the binary size of the resulting kernel.
+In general, activating FB_DDC increases the binary size by 20 MB (strong representativity score).
+
+----
+SND_HDA_CODEC_CIRRUS
+----
+
+SND_HDA_CODEC_CIRRUS has a negligible effect on the binary size of the resulting kernel.
+In general, activating SND_HDA_CODEC_CIRRUS increases the binary size by 25 MB (weak representativity score).
+
+----
+FB_BOOT_VESA_SUPPORT
+----
+
+FB_BOOT_VESA_SUPPORT has a negligible effect on the binary size of the resulting kernel.
+In general, activating FB_BOOT_VESA_SUPPORT increases the binary size by 14 MB (strong representativity score).
+
+----
+SND_HDA_CODEC_CONEXANT
+----
+
+SND_HDA_CODEC_CONEXANT has a negligible effect on the binary size of the resulting kernel.
+In general, activating SND_HDA_CODEC_CONEXANT increases the binary size by 24 MB (weak representativity score).
+
+----
+SND_HDA_CODEC_CA0110
+----
+
+SND_HDA_CODEC_CA0110 has a negligible effect on the binary size of the resulting kernel.
+In general, activating SND_HDA_CODEC_CA0110 increases the binary size by 24 MB (weak representativity score).
+
+----
+FB_FOREIGN_ENDIAN
+----
+
+FB_FOREIGN_ENDIAN has a negligible effect on the binary size of the resulting kernel.
+In general, activating FB_FOREIGN_ENDIAN increases the binary size by 619 kB (strong representativity score).
+
+----
+SND_HDA_CODEC_CA0132
+----
+
+SND_HDA_CODEC_CA0132 has a negligible effect on the binary size of the resulting kernel.
+In general, activating SND_HDA_CODEC_CA0132 increases the binary size by 23 MB (weak representativity score).
+
+----
+SND_HDA_CODEC_CA0132_DSP
+----
+
+SND_HDA_CODEC_CA0132_DSP has a negligible effect on the binary size of the resulting kernel.
+In general, activating SND_HDA_CODEC_CA0132_DSP increases the binary size by 7 MB (weak representativity score).
+
+----
+FB_BOTH_ENDIAN
+----
+
+FB_BOTH_ENDIAN has a negligible effect on the binary size of the resulting kernel.
+In general, activating FB_BOTH_ENDIAN increases the binary size by 619 kB (strong representativity score).
+
+----
+SND_HDA_DSP_LOADER
+----
+
+SND_HDA_DSP_LOADER has a negligible effect on the binary size of the resulting kernel.
+In general, activating SND_HDA_DSP_LOADER increases the binary size by 11 MB (weak representativity score).
+
+----
+SND_HDA_CODEC_CMEDIA
+----
+
+SND_HDA_CODEC_CMEDIA has a negligible effect on the binary size of the resulting kernel.
+In general, activating SND_HDA_CODEC_CMEDIA increases the binary size by 21 MB (weak representativity score).
+
+----
+FB_HECUBA
+----
+
+FB_HECUBA has a negligible effect on the binary size of the resulting kernel.
+In general, activating FB_HECUBA increases the binary size by 12 MB (strong representativity score).
+
+----
+SND_HDA_CODEC_SI3054
+----
+
+SND_HDA_CODEC_SI3054 has a negligible effect on the binary size of the resulting kernel.
+In general, activating SND_HDA_CODEC_SI3054 increases the binary size by 23 MB (weak representativity score).
+
+----
+FB_SVGALIB
+----
+
+FB_SVGALIB has a negligible effect on the binary size of the resulting kernel.
+In general, activating FB_SVGALIB increases the binary size by 20 MB (strong representativity score).
+
+----
+SND_HDA_I915
+----
+
+SND_HDA_I915 has a negligible effect on the binary size of the resulting kernel.
+In general, activating SND_HDA_I915 increases the binary size by 13 MB (weak representativity score).
+
+----
+FB_MODE_HELPERS
+----
+
+FB_MODE_HELPERS has a negligible effect on the binary size of the resulting kernel.
+In general, activating FB_MODE_HELPERS increases the binary size by 5 MB (medium representativity score).
+
+----
+SND_HDA_EXT_CORE
+----
+
+SND_HDA_EXT_CORE has a negligible effect on the binary size of the resulting kernel.
+In general, activating SND_HDA_EXT_CORE increases the binary size by 17 MB (weak representativity score).
+
+----
+FB_TILEBLITTING
+----
+
+FB_TILEBLITTING has a negligible effect on the binary size of the resulting kernel.
+In general, activating FB_TILEBLITTING increases the binary size by 9 MB (medium representativity score).
+
+----
+MICROCODE_OLD_INTERFACE
+----
+
+MICROCODE_OLD_INTERFACE has a negligible effect on the binary size of the resulting kernel.
+In general, activating MICROCODE_OLD_INTERFACE increases the binary size by 247 kB (strong representativity score).
+
+----
+SCSI_CONSTANTS
+----
+
+SCSI_CONSTANTS has a negligible effect on the binary size of the resulting kernel.
+In general, activating SCSI_CONSTANTS increases the binary size by 5 MB (medium representativity score).
+
+----
+ADIS16203
+----
+
+ADIS16203 has a negligible effect on the binary size of the resulting kernel.
+In general, activating ADIS16203 increases the binary size by 13 MB (weak representativity score).
+
+----
+MCB_PCI
+----
+
+MCB_PCI has a negligible effect on the binary size of the resulting kernel.
+In general, activating MCB_PCI increases the binary size by 17 MB (weak representativity score).
+
+----
+X86_MSR
+----
+
+X86_MSR has a negligible effect on the binary size of the resulting kernel.
+In general, activating X86_MSR increases the binary size by 10 MB (strong representativity score).
+
+----
+MTD_MT81xx_NOR
+----
+
+MTD_MT81xx_NOR has a negligible effect on the binary size of the resulting kernel.
+In general, activating MTD_MT81xx_NOR increases the binary size by 10 MB (weak representativity score).
+
+----
+SCSI_LOGGING
+----
+
+SCSI_LOGGING has a negligible effect on the binary size of the resulting kernel.
+In general, activating SCSI_LOGGING increases the binary size by 5 MB (medium representativity score).
+
+----
+ADIS16209
+----
+
+ADIS16209 has a negligible effect on the binary size of the resulting kernel.
+In general, activating ADIS16209 increases the binary size by 12 MB (weak representativity score).
+
+----
+MCB_LPC
+----
+
+MCB_LPC has a negligible effect on the binary size of the resulting kernel.
+In general, activating MCB_LPC increases the binary size by 11 MB (medium representativity score).
+
+----
+X86_CPUID
+----
+
+X86_CPUID has a negligible effect on the binary size of the resulting kernel.
+In general, activating X86_CPUID increases the binary size by 8 MB (strong representativity score).
+
+----
+MTD_SPI_NOR_USE_4K_SECTORS
+----
+
+MTD_SPI_NOR_USE_4K_SECTORS has a negligible effect on the binary size of the resulting kernel.
+In general, activating MTD_SPI_NOR_USE_4K_SECTORS reduces the binary size by -113 kB (medium representativity score).
+
+----
+SCSI_SCAN_ASYNC
+----
+
+SCSI_SCAN_ASYNC has a negligible effect on the binary size of the resulting kernel.
+In general, activating SCSI_SCAN_ASYNC increases the binary size by 5 MB (medium representativity score).
+
+----
+SOC_RENESAS
+----
+
+SOC_RENESAS has a negligible effect on the binary size of the resulting kernel.
+In general, activating SOC_RENESAS reduces the binary size by -19 MB (medium representativity score).
+
+----
+HIGHMEM4G
+----
+
+HIGHMEM4G has a negligible effect on the binary size of the resulting kernel.
+In general, activating HIGHMEM4G reduces the binary size by -15 MB (weak representativity score).
+
+----
+SPI_ASPEED_SMC
+----
+
+SPI_ASPEED_SMC has a negligible effect on the binary size of the resulting kernel.
+In general, activating SPI_ASPEED_SMC reduces the binary size by -7 MB (weak representativity score).
+
+----
+SCSI_SPI_ATTRS
+----
+
+SCSI_SPI_ATTRS has a negligible effect on the binary size of the resulting kernel.
+In general, activating SCSI_SPI_ATTRS increases the binary size by 16 MB (medium representativity score).
+
+----
+ADIS16240
+----
+
+ADIS16240 has a negligible effect on the binary size of the resulting kernel.
+In general, activating ADIS16240 increases the binary size by 13 MB (weak representativity score).
+
+----
+RST_RCAR
+----
+
+RST_RCAR has a negligible effect on the binary size of the resulting kernel.
+In general, activating RST_RCAR reduces the binary size by -16 MB (weak representativity score).
+
+----
+NOHIGHMEM
+----
+
+NOHIGHMEM has a negligible effect on the binary size of the resulting kernel.
+In general, activating NOHIGHMEM reduces the binary size by -48 MB (weak representativity score).
+
+----
+SCSI_FC_ATTRS
+----
+
+SCSI_FC_ATTRS has a negligible effect on the binary size of the resulting kernel.
+In general, activating SCSI_FC_ATTRS increases the binary size by 22 MB (weak representativity score).
+
+----
+AD7606
+----
+
+AD7606 has a negligible effect on the binary size of the resulting kernel.
+In general, activating AD7606 increases the binary size by 14 MB (weak representativity score).
+
+----
+HIGHMEM64G
+----
+
+HIGHMEM64G has a negligible effect on the binary size of the resulting kernel.
+In general, activating HIGHMEM64G increases the binary size by 14 MB (weak representativity score).
+
+----
+SCSI_ISCSI_ATTRS
+----
+
+SCSI_ISCSI_ATTRS has a negligible effect on the binary size of the resulting kernel.
+In general, activating SCSI_ISCSI_ATTRS increases the binary size by 22 MB (weak representativity score).
+
+----
+SPI_BCM63XX
+----
+
+SPI_BCM63XX has a negligible effect on the binary size of the resulting kernel.
+In general, activating SPI_BCM63XX reduces the binary size by -12 MB (weak representativity score).
+
+----
+IIO_TRIGGERED_BUFFER
+----
+
+IIO_TRIGGERED_BUFFER has a negligible effect on the binary size of the resulting kernel.
+In general, activating IIO_TRIGGERED_BUFFER increases the binary size by 10 MB (strong representativity score).
+
+----
+VMSPLIT_3G
+----
+
+VMSPLIT_3G has a negligible effect on the binary size of the resulting kernel.
+In general, activating VMSPLIT_3G reduces the binary size by -27 MB (weak representativity score).
+
+----
+SPI_CADENCE_QUADSPI
+----
+
+SPI_CADENCE_QUADSPI has a negligible effect on the binary size of the resulting kernel.
+In general, activating SPI_CADENCE_QUADSPI reduces the binary size by -7 MB (weak representativity score).
+
+----
+SCSI_SAS_LIBSAS
+----
+
+SCSI_SAS_LIBSAS has a negligible effect on the binary size of the resulting kernel.
+In general, activating SCSI_SAS_LIBSAS increases the binary size by 15 MB (medium representativity score).
+
+----
+SPI_BCM63XX_HSSPI
+----
+
+SPI_BCM63XX_HSSPI has a negligible effect on the binary size of the resulting kernel.
+In general, activating SPI_BCM63XX_HSSPI reduces the binary size by -12 MB (weak representativity score).
+
+----
+AD7606_IFACE_PARALLEL
+----
+
+AD7606_IFACE_PARALLEL has a negligible effect on the binary size of the resulting kernel.
+In general, activating AD7606_IFACE_PARALLEL increases the binary size by 14 MB (weak representativity score).
+
+----
+SYSC_R8A7743
+----
+
+SYSC_R8A7743 has a negligible effect on the binary size of the resulting kernel.
+In general, activating SYSC_R8A7743 reduces the binary size by -16 MB (weak representativity score).
+
+----
+SPI_FSL_QUADSPI
+----
+
+SPI_FSL_QUADSPI has a negligible effect on the binary size of the resulting kernel.
+In general, activating SPI_FSL_QUADSPI reduces the binary size by -8 MB (weak representativity score).
+
+----
+SCSI_SAS_ATA
+----
+
+SCSI_SAS_ATA has a negligible effect on the binary size of the resulting kernel.
+In general, activating SCSI_SAS_ATA increases the binary size by 6 MB (weak representativity score).
+
+----
+SPI_BCM_QSPI
+----
+
+SPI_BCM_QSPI has a negligible effect on the binary size of the resulting kernel.
+In general, activating SPI_BCM_QSPI reduces the binary size by -12 MB (weak representativity score).
+
+----
+AD7606_IFACE_SPI
+----
+
+AD7606_IFACE_SPI has a negligible effect on the binary size of the resulting kernel.
+In general, activating AD7606_IFACE_SPI increases the binary size by 18 MB (weak representativity score).
+
+----
+SYSC_R8A7745
+----
+
+SYSC_R8A7745 has a negligible effect on the binary size of the resulting kernel.
+In general, activating SYSC_R8A7745 reduces the binary size by -16 MB (weak representativity score).
+
+----
+RAS_CEC
+----
+
+RAS_CEC has a negligible effect on the binary size of the resulting kernel.
+In general, activating RAS_CEC increases the binary size by 203 kB (weak representativity score).
+
+----
+VMSPLIT_2G
+----
+
+VMSPLIT_2G has a negligible effect on the binary size of the resulting kernel.
+In general, activating VMSPLIT_2G increases the binary size by 14 MB (weak representativity score).
+
+----
+SPI_HISI_SFC
+----
+
+SPI_HISI_SFC has a negligible effect on the binary size of the resulting kernel.
+In general, activating SPI_HISI_SFC reduces the binary size by -8 MB (weak representativity score).
+
+----
+ATA
+----
+
+ATA has a negligible effect on the binary size of the resulting kernel.
+In general, activating ATA increases the binary size by 12 MB (medium representativity score).
+
+----
+AD7780
+----
+
+AD7780 has a negligible effect on the binary size of the resulting kernel.
+In general, activating AD7780 increases the binary size by 13 MB (weak representativity score).
+
+----
+SYSC_R8A7779
+----
+
+SYSC_R8A7779 has a negligible effect on the binary size of the resulting kernel.
+In general, activating SYSC_R8A7779 reduces the binary size by -16 MB (weak representativity score).
+
+----
+THUNDERBOLT
+----
+
+THUNDERBOLT has a negligible effect on the binary size of the resulting kernel.
+In general, activating THUNDERBOLT increases the binary size by 15 MB (medium representativity score).
+
+----
+SPI_NXP_SPIFI
+----
+
+SPI_NXP_SPIFI has a negligible effect on the binary size of the resulting kernel.
+In general, activating SPI_NXP_SPIFI reduces the binary size by -7 MB (weak representativity score).
+
+----
+SCSI_SAS_HOST_SMP
+----
+
+SCSI_SAS_HOST_SMP has a negligible effect on the binary size of the resulting kernel.
+In general, activating SCSI_SAS_HOST_SMP increases the binary size by 6 MB (medium representativity score).
+
+----
+SPI_BUTTERFLY
+----
+
+SPI_BUTTERFLY has a negligible effect on the binary size of the resulting kernel.
+In general, activating SPI_BUTTERFLY increases the binary size by 10 MB (weak representativity score).
+
+----
+SYSC_R8A7790
+----
+
+SYSC_R8A7790 has a negligible effect on the binary size of the resulting kernel.
+In general, activating SYSC_R8A7790 reduces the binary size by -16 MB (weak representativity score).
+
+----
+AD_SIGMA_DELTA
+----
+
+AD_SIGMA_DELTA has a negligible effect on the binary size of the resulting kernel.
+In general, activating AD_SIGMA_DELTA increases the binary size by 10 MB (medium representativity score).
+
+----
+APPLE_PROPERTIES
+----
+
+APPLE_PROPERTIES has a negligible effect on the binary size of the resulting kernel.
+In general, activating APPLE_PROPERTIES increases the binary size by 15 MB (weak representativity score).
+
+----
+SCSI_SRP_ATTRS
+----
+
+SCSI_SRP_ATTRS has a negligible effect on the binary size of the resulting kernel.
+In general, activating SCSI_SRP_ATTRS increases the binary size by 16 MB (medium representativity score).
+
+----
+SPI_CADENCE
+----
+
+SPI_CADENCE has a negligible effect on the binary size of the resulting kernel.
+In general, activating SPI_CADENCE increases the binary size by 6 MB (medium representativity score).
+
+----
+AD7816
+----
+
+AD7816 has a negligible effect on the binary size of the resulting kernel.
+In general, activating AD7816 increases the binary size by 13 MB (weak representativity score).
+
+----
+SYSC_R8A7791
+----
+
+SYSC_R8A7791 has a negligible effect on the binary size of the resulting kernel.
+In general, activating SYSC_R8A7791 reduces the binary size by -16 MB (weak representativity score).
+
+----
+ANDROID_BINDER_IPC
+----
+
+ANDROID_BINDER_IPC has a negligible effect on the binary size of the resulting kernel.
+In general, activating ANDROID_BINDER_IPC increases the binary size by 192 kB (medium representativity score).
+
+----
+SPI_INTEL_SPI
+----
+
+SPI_INTEL_SPI has a negligible effect on the binary size of the resulting kernel.
+In general, activating SPI_INTEL_SPI increases the binary size by 11 MB (weak representativity score).
+
+----
+SCSI_LOWLEVEL
+----
+
+SCSI_LOWLEVEL has a negligible effect on the binary size of the resulting kernel.
+In general, activating SCSI_LOWLEVEL increases the binary size by 5 MB (medium representativity score).
+
+----
+SPI_CLPS711X
+----
+
+SPI_CLPS711X has a negligible effect on the binary size of the resulting kernel.
+In general, activating SPI_CLPS711X reduces the binary size by -12 MB (weak representativity score).
+
+----
+AD7192
+----
+
+AD7192 has a negligible effect on the binary size of the resulting kernel.
+In general, activating AD7192 increases the binary size by 13 MB (weak representativity score).
+
+----
+SYSC_R8A7792
+----
+
+SYSC_R8A7792 has a negligible effect on the binary size of the resulting kernel.
+In general, activating SYSC_R8A7792 reduces the binary size by -16 MB (weak representativity score).
+
+----
+SPI_INTEL_SPI_PLATFORM
+----
+
+SPI_INTEL_SPI_PLATFORM has a negligible effect on the binary size of the resulting kernel.
+In general, activating SPI_INTEL_SPI_PLATFORM increases the binary size by 11 MB (weak representativity score).
+
+----
+ISCSI_TCP
+----
+
+ISCSI_TCP has a negligible effect on the binary size of the resulting kernel.
+In general, activating ISCSI_TCP increases the binary size by 25 MB (weak representativity score).
+
+----
+AD7280
+----
+
+AD7280 has a negligible effect on the binary size of the resulting kernel.
+In general, activating AD7280 increases the binary size by 13 MB (weak representativity score).
+
+----
+SYSC_R8A7794
+----
+
+SYSC_R8A7794 has a negligible effect on the binary size of the resulting kernel.
+In general, activating SYSC_R8A7794 reduces the binary size by -16 MB (weak representativity score).
+
+----
+SPI_STM32_QUADSPI
+----
+
+SPI_STM32_QUADSPI has a negligible effect on the binary size of the resulting kernel.
+In general, activating SPI_STM32_QUADSPI reduces the binary size by -8 MB (weak representativity score).
+
+----
+ADT7316
+----
+
+ADT7316 has a negligible effect on the binary size of the resulting kernel.
+In general, activating ADT7316 increases the binary size by 13 MB (weak representativity score).
+
+----
+SYSC_R8A7795
+----
+
+SYSC_R8A7795 has a negligible effect on the binary size of the resulting kernel.
+In general, activating SYSC_R8A7795 reduces the binary size by -16 MB (weak representativity score).
+
+----
+ANDROID_BINDER_IPC_32BIT
+----
+
+ANDROID_BINDER_IPC_32BIT has a negligible effect on the binary size of the resulting kernel.
+In general, activating ANDROID_BINDER_IPC_32BIT reduces the binary size by -24 MB (weak representativity score).
+
+----
+CRYPTO_CRC32C
+----
+
+CRYPTO_CRC32C has a negligible effect on the binary size of the resulting kernel.
+In general, activating CRYPTO_CRC32C increases the binary size by 16 MB (weak representativity score).
+
+----
+ISCSI_BOOT_SYSFS
+----
+
+ISCSI_BOOT_SYSFS has a negligible effect on the binary size of the resulting kernel.
+In general, activating ISCSI_BOOT_SYSFS increases the binary size by 15 MB (weak representativity score).
+
+----
+SYSC_R8A7796
+----
+
+SYSC_R8A7796 has a negligible effect on the binary size of the resulting kernel.
+In general, activating SYSC_R8A7796 reduces the binary size by -16 MB (weak representativity score).
+
+----
+BLK_DEV_PMEM
+----
+
+BLK_DEV_PMEM has a negligible effect on the binary size of the resulting kernel.
+In general, activating BLK_DEV_PMEM increases the binary size by 13 MB (weak representativity score).
+
+----
+MTD_UBI
+----
+
+MTD_UBI has a negligible effect on the binary size of the resulting kernel.
+In general, activating MTD_UBI increases the binary size by 11 MB (medium representativity score).
+
+----
+SCSI_CXGB3_ISCSI
+----
+
+SCSI_CXGB3_ISCSI has a negligible effect on the binary size of the resulting kernel.
+In general, activating SCSI_CXGB3_ISCSI increases the binary size by 44 MB (weak representativity score).
+
+----
+ADT7316_SPI
+----
+
+ADT7316_SPI has a negligible effect on the binary size of the resulting kernel.
+In general, activating ADT7316_SPI increases the binary size by 13 MB (weak representativity score).
+
+----
+SYSC_RCAR
+----
+
+SYSC_RCAR has a negligible effect on the binary size of the resulting kernel.
+In general, activating SYSC_RCAR reduces the binary size by -19 MB (medium representativity score).
+
+----
+ND_BTT
+----
+
+ND_BTT has a negligible effect on the binary size of the resulting kernel.
+In general, activating ND_BTT increases the binary size by 12 MB (weak representativity score).
+
+----
+ETHERNET
+----
+
+ETHERNET has a negligible effect on the binary size of the resulting kernel.
+In general, activating ETHERNET increases the binary size by 13 MB (weak representativity score).
+
+----
+SPI_DESIGNWARE
+----
+
+SPI_DESIGNWARE has a negligible effect on the binary size of the resulting kernel.
+In general, activating SPI_DESIGNWARE increases the binary size by 6 MB (medium representativity score).
+
+----
+ADT7316_I2C
+----
+
+ADT7316_I2C has a negligible effect on the binary size of the resulting kernel.
+In general, activating ADT7316_I2C increases the binary size by 16 MB (weak representativity score).
+
+----
+ROCKCHIP_GRF
+----
+
+ROCKCHIP_GRF has a negligible effect on the binary size of the resulting kernel.
+In general, activating ROCKCHIP_GRF reduces the binary size by -29 MB (strong representativity score).
+
+----
+BTT
+----
+
+BTT has a negligible effect on the binary size of the resulting kernel.
+In general, activating BTT increases the binary size by 6 MB (weak representativity score).
+
+----
+GENERIC_ISA_DMA
+----
+
+GENERIC_ISA_DMA has a negligible effect on the binary size of the resulting kernel.
+In general, activating GENERIC_ISA_DMA increases the binary size by 297 kB (strong representativity score).
+
+----
+TOUCHSCREEN_ELO
+----
+
+TOUCHSCREEN_ELO has a negligible effect on the binary size of the resulting kernel.
+In general, activating TOUCHSCREEN_ELO increases the binary size by 8 MB (medium representativity score).
+
+----
+VIDEO_STM32_DCMI
+----
+
+VIDEO_STM32_DCMI has a negligible effect on the binary size of the resulting kernel.
+In general, activating VIDEO_STM32_DCMI reduces the binary size by -7 MB (weak representativity score).
+
+----
+HARDLOCKUP_CHECK_TIMESTAMP
+----
+
+HARDLOCKUP_CHECK_TIMESTAMP has a negligible effect on the binary size of the resulting kernel.
+In general, activating HARDLOCKUP_CHECK_TIMESTAMP increases the binary size by 24 MB (weak representativity score).
+
+----
+HAVE_ACPI_APEI
+----
+
+HAVE_ACPI_APEI has a negligible effect on the binary size of the resulting kernel.
+In general, activating HAVE_ACPI_APEI increases the binary size by 13 MB (strong representativity score).
+
+----
+ISA_DMA_API
+----
+
+ISA_DMA_API has a negligible effect on the binary size of the resulting kernel.
+In general, activating ISA_DMA_API increases the binary size by 297 kB (strong representativity score).
+
+----
+TOUCHSCREEN_WACOM_W8001
+----
+
+TOUCHSCREEN_WACOM_W8001 has a negligible effect on the binary size of the resulting kernel.
+In general, activating TOUCHSCREEN_WACOM_W8001 increases the binary size by 7 MB (medium representativity score).
+
+----
+GENERIC_BUG
+----
+
+GENERIC_BUG has a negligible effect on the binary size of the resulting kernel.
+In general, activating GENERIC_BUG increases the binary size by 3 MB (medium representativity score).
+
+----
+HAVE_ACPI_APEI_NMI
+----
+
+HAVE_ACPI_APEI_NMI has a negligible effect on the binary size of the resulting kernel.
+In general, activating HAVE_ACPI_APEI_NMI increases the binary size by 13 MB (strong representativity score).
+
+----
+SOC_CAMERA
+----
+
+SOC_CAMERA has a negligible effect on the binary size of the resulting kernel.
+In general, activating SOC_CAMERA increases the binary size by 11 MB (weak representativity score).
+
+----
+BUG
+----
+
+BUG has a negligible effect on the binary size of the resulting kernel.
+In general, activating BUG increases the binary size by 3 MB (medium representativity score).
+
+----
+HAVE_ALIGNED_STRUCT_PAGE
+----
+
+HAVE_ALIGNED_STRUCT_PAGE has a negligible effect on the binary size of the resulting kernel.
+In general, activating HAVE_ALIGNED_STRUCT_PAGE increases the binary size by 26 MB (weak representativity score).
+
+----
+TOUCHSCREEN_WACOM_I2C
+----
+
+TOUCHSCREEN_WACOM_I2C has a negligible effect on the binary size of the resulting kernel.
+In general, activating TOUCHSCREEN_WACOM_I2C increases the binary size by 8 MB (medium representativity score).
+
+----
+SOC_CAMERA_SCALE_CROP
+----
+
+SOC_CAMERA_SCALE_CROP has a negligible effect on the binary size of the resulting kernel.
+In general, activating SOC_CAMERA_SCALE_CROP reduces the binary size by -1 MB (weak representativity score).
+
+----
+GENERIC_BUG_RELATIVE_POINTERS
+----
+
+GENERIC_BUG_RELATIVE_POINTERS has a negligible effect on the binary size of the resulting kernel.
+In general, activating GENERIC_BUG_RELATIVE_POINTERS increases the binary size by 3 MB (medium representativity score).
+
+----
+SLUB
+----
+
+SLUB has a negligible effect on the binary size of the resulting kernel.
+In general, activating SLUB increases the binary size by 26 MB (weak representativity score).
+
+----
+SOC_CAMERA_PLATFORM
+----
+
+SOC_CAMERA_PLATFORM has a negligible effect on the binary size of the resulting kernel.
+In general, activating SOC_CAMERA_PLATFORM increases the binary size by 12 MB (weak representativity score).
+
+----
+VIDEO_SH_MOBILE_CEU
+----
+
+VIDEO_SH_MOBILE_CEU has a negligible effect on the binary size of the resulting kernel.
+In general, activating VIDEO_SH_MOBILE_CEU reduces the binary size by -1 MB (weak representativity score).
+
+----
+ARCH_MAY_HAVE_PC_FDC
+----
+
+ARCH_MAY_HAVE_PC_FDC has a negligible effect on the binary size of the resulting kernel.
+In general, activating ARCH_MAY_HAVE_PC_FDC increases the binary size by 297 kB (strong representativity score).
+
+----
+HAVE_ARCH_HUGE_VMAP
+----
+
+HAVE_ARCH_HUGE_VMAP has a negligible effect on the binary size of the resulting kernel.
+In general, activating HAVE_ARCH_HUGE_VMAP increases the binary size by 25 MB (weak representativity score).
+
+----
+VIDEO_SAMSUNG_EXYNOS4_IS
+----
+
+VIDEO_SAMSUNG_EXYNOS4_IS has a negligible effect on the binary size of the resulting kernel.
+In general, activating VIDEO_SAMSUNG_EXYNOS4_IS increases the binary size by 1 MB (weak representativity score).
+
+----
+X86_PAE
+----
+
+X86_PAE has a negligible effect on the binary size of the resulting kernel.
+In general, activating X86_PAE increases the binary size by 14 MB (weak representativity score).
+
+----
+TOUCHSCREEN_MAX11801
+----
+
+TOUCHSCREEN_MAX11801 has a negligible effect on the binary size of the resulting kernel.
+In general, activating TOUCHSCREEN_MAX11801 increases the binary size by 10 MB (medium representativity score).
+
+----
+PINCTRL_STM32
+----
+
+PINCTRL_STM32 has a negligible effect on the binary size of the resulting kernel.
+In general, activating PINCTRL_STM32 reduces the binary size by -8 MB (weak representativity score).
+
+----
+VIDEO_EXYNOS4_IS_COMMON
+----
+
+VIDEO_EXYNOS4_IS_COMMON has a negligible effect on the binary size of the resulting kernel.
+In general, activating VIDEO_EXYNOS4_IS_COMMON increases the binary size by 3 MB (weak representativity score).
+
+----
+TOUCHSCREEN_MCS5000
+----
+
+TOUCHSCREEN_MCS5000 has a negligible effect on the binary size of the resulting kernel.
+In general, activating TOUCHSCREEN_MCS5000 increases the binary size by 10 MB (medium representativity score).
+
+----
+PINCTRL_STM32F429
+----
+
+PINCTRL_STM32F429 has a negligible effect on the binary size of the resulting kernel.
+In general, activating PINCTRL_STM32F429 reduces the binary size by -8 MB (weak representativity score).
+
+----
+VIDEO_S5P_FIMC
+----
+
+VIDEO_S5P_FIMC has a negligible effect on the binary size of the resulting kernel.
+In general, activating VIDEO_S5P_FIMC increases the binary size by 2 MB (weak representativity score).
+
+----
+TOUCHSCREEN_MMS114
+----
+
+TOUCHSCREEN_MMS114 has a negligible effect on the binary size of the resulting kernel.
+In general, activating TOUCHSCREEN_MMS114 increases the binary size by 9 MB (medium representativity score).
+
+----
+VIDEO_S5P_MIPI_CSIS
+----
+
+VIDEO_S5P_MIPI_CSIS has a negligible effect on the binary size of the resulting kernel.
+In general, activating VIDEO_S5P_MIPI_CSIS increases the binary size by 3 MB (weak representativity score).
+
+----
+HAVE_ARCH_KASAN
+----
+
+HAVE_ARCH_KASAN has a negligible effect on the binary size of the resulting kernel.
+In general, activating HAVE_ARCH_KASAN increases the binary size by 6 MB (strong representativity score).
+
+----
+SPARSEMEM_VMEMMAP
+----
+
+SPARSEMEM_VMEMMAP has a negligible effect on the binary size of the resulting kernel.
+In general, activating SPARSEMEM_VMEMMAP increases the binary size by 6 MB (strong representativity score).
+
+----
+TOUCHSCREEN_MELFAS_MIP4
+----
+
+TOUCHSCREEN_MELFAS_MIP4 has a negligible effect on the binary size of the resulting kernel.
+In general, activating TOUCHSCREEN_MELFAS_MIP4 increases the binary size by 9 MB (medium representativity score).
+
+----
+PINCTRL_STM32F469
+----
+
+PINCTRL_STM32F469 has a negligible effect on the binary size of the resulting kernel.
+In general, activating PINCTRL_STM32F469 reduces the binary size by -8 MB (weak representativity score).
+
+----
+B44
+----
+
+B44 has a negligible effect on the binary size of the resulting kernel.
+In general, activating B44 increases the binary size by 20 MB (weak representativity score).
+
+----
+TOUCHSCREEN_MTOUCH
+----
+
+TOUCHSCREEN_MTOUCH has a negligible effect on the binary size of the resulting kernel.
+In general, activating TOUCHSCREEN_MTOUCH increases the binary size by 7 MB (medium representativity score).
+
+----
+TOUCHSCREEN_IMX6UL_TSC
+----
+
+TOUCHSCREEN_IMX6UL_TSC has a negligible effect on the binary size of the resulting kernel.
+In general, activating TOUCHSCREEN_IMX6UL_TSC increases the binary size by 1 MB (weak representativity score).
+
+----
+PINCTRL_STM32F746
+----
+
+PINCTRL_STM32F746 has a negligible effect on the binary size of the resulting kernel.
+In general, activating PINCTRL_STM32F746 reduces the binary size by -8 MB (weak representativity score).
+
+----
+SSB
+----
+
+SSB has a negligible effect on the binary size of the resulting kernel.
+In general, activating SSB increases the binary size by 10 MB (strong representativity score).
+
+----
+TOUCHSCREEN_INEXIO
+----
+
+TOUCHSCREEN_INEXIO has a negligible effect on the binary size of the resulting kernel.
+In general, activating TOUCHSCREEN_INEXIO increases the binary size by 7 MB (medium representativity score).
+
+----
+B44_PCI_AUTOSELECT
+----
+
+B44_PCI_AUTOSELECT has a negligible effect on the binary size of the resulting kernel.
+In general, activating B44_PCI_AUTOSELECT increases the binary size by 19 MB (weak representativity score).
+
+----
+TOUCHSCREEN_MK712
+----
+
+TOUCHSCREEN_MK712 has a negligible effect on the binary size of the resulting kernel.
+In general, activating TOUCHSCREEN_MK712 increases the binary size by 8 MB (medium representativity score).
+
+----
+PINCTRL_STM32H743
+----
+
+PINCTRL_STM32H743 has a negligible effect on the binary size of the resulting kernel.
+In general, activating PINCTRL_STM32H743 reduces the binary size by -8 MB (weak representativity score).
+
+----
+SSB_PCIHOST_POSSIBLE
+----
+
+SSB_PCIHOST_POSSIBLE has a negligible effect on the binary size of the resulting kernel.
+In general, activating SSB_PCIHOST_POSSIBLE increases the binary size by 11 MB (strong representativity score).
+
+----
+HAVE_ARCH_MMAP_RND_COMPAT_BITS
+----
+
+HAVE_ARCH_MMAP_RND_COMPAT_BITS has a negligible effect on the binary size of the resulting kernel.
+In general, activating HAVE_ARCH_MMAP_RND_COMPAT_BITS increases the binary size by 1 MB (medium representativity score).
+
+----
+SSB_PCIHOST
+----
+
+SSB_PCIHOST has a negligible effect on the binary size of the resulting kernel.
+In general, activating SSB_PCIHOST increases the binary size by 10 MB (medium representativity score).
+
+----
+COMPAT
+----
+
+COMPAT has a negligible effect on the binary size of the resulting kernel.
+In general, activating COMPAT increases the binary size by 1 MB (medium representativity score).
+
+----
+B44_PCICORE_AUTOSELECT
+----
+
+B44_PCICORE_AUTOSELECT has a negligible effect on the binary size of the resulting kernel.
+In general, activating B44_PCICORE_AUTOSELECT increases the binary size by 19 MB (weak representativity score).
+
+----
+VIDEO_EXYNOS4_FIMC_IS
+----
+
+VIDEO_EXYNOS4_FIMC_IS has a negligible effect on the binary size of the resulting kernel.
+In general, activating VIDEO_EXYNOS4_FIMC_IS increases the binary size by 6 MB (weak representativity score).
+
+----
+IP_SET_HASH_NETPORTNET
+----
+
+IP_SET_HASH_NETPORTNET has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_SET_HASH_NETPORTNET increases the binary size by 20 MB (weak representativity score).
+
+----
+NETXEN_NIC
+----
+
+NETXEN_NIC has a negligible effect on the binary size of the resulting kernel.
+In general, activating NETXEN_NIC increases the binary size by 26 MB (weak representativity score).
+
+----
+HISAX_EURO
+----
+
+HISAX_EURO has a negligible effect on the binary size of the resulting kernel.
+In general, activating HISAX_EURO increases the binary size by 8 MB (weak representativity score).
+
+----
+UIO_AEC
+----
+
+UIO_AEC has a negligible effect on the binary size of the resulting kernel.
+In general, activating UIO_AEC increases the binary size by 17 MB (medium representativity score).
+
+----
+NFS_FS
+----
+
+NFS_FS has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFS_FS increases the binary size by 16 MB (weak representativity score).
+
+----
+MODULE_FORCE_LOAD
+----
+
+MODULE_FORCE_LOAD has a negligible effect on the binary size of the resulting kernel.
+In general, activating MODULE_FORCE_LOAD reduces the binary size by -16 MB (medium representativity score).
+
+----
+IP_SET_HASH_NET
+----
+
+IP_SET_HASH_NET has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_SET_HASH_NET increases the binary size by 21 MB (weak representativity score).
+
+----
+QED_SRIOV
+----
+
+QED_SRIOV has a negligible effect on the binary size of the resulting kernel.
+In general, activating QED_SRIOV increases the binary size by 17 MB (weak representativity score).
+
+----
+DE_AOC
+----
+
+DE_AOC has a negligible effect on the binary size of the resulting kernel.
+In general, activating DE_AOC increases the binary size by 13 MB (weak representativity score).
+
+----
+UIO_SERCOS3
+----
+
+UIO_SERCOS3 has a negligible effect on the binary size of the resulting kernel.
+In general, activating UIO_SERCOS3 increases the binary size by 18 MB (medium representativity score).
+
+----
+LOCKD
+----
+
+LOCKD has a negligible effect on the binary size of the resulting kernel.
+In general, activating LOCKD increases the binary size by 14 MB (weak representativity score).
+
+----
+CRYPTO_DES3_EDE_X86_64
+----
+
+CRYPTO_DES3_EDE_X86_64 has a negligible effect on the binary size of the resulting kernel.
+In general, activating CRYPTO_DES3_EDE_X86_64 increases the binary size by 8 MB (strong representativity score).
+
+----
+MODULE_UNLOAD
+----
+
+MODULE_UNLOAD has a negligible effect on the binary size of the resulting kernel.
+In general, activating MODULE_UNLOAD reduces the binary size by -16 MB (medium representativity score).
+
+----
+IP_SET_HASH_NETNET
+----
+
+IP_SET_HASH_NETNET has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_SET_HASH_NETNET increases the binary size by 19 MB (weak representativity score).
+
+----
+QEDE
+----
+
+QEDE has a negligible effect on the binary size of the resulting kernel.
+In general, activating QEDE increases the binary size by 32 MB (weak representativity score).
+
+----
+HISAX_NO_SENDCOMPLETE
+----
+
+HISAX_NO_SENDCOMPLETE has a negligible effect on the binary size of the resulting kernel.
+In general, activating HISAX_NO_SENDCOMPLETE increases the binary size by 6 MB (weak representativity score).
+
+----
+UIO_PCI_GENERIC
+----
+
+UIO_PCI_GENERIC has a negligible effect on the binary size of the resulting kernel.
+In general, activating UIO_PCI_GENERIC increases the binary size by 18 MB (medium representativity score).
+
+----
+SUNRPC
+----
+
+SUNRPC has a negligible effect on the binary size of the resulting kernel.
+In general, activating SUNRPC increases the binary size by 14 MB (weak representativity score).
+
+----
+CRYPTO_KHAZAD
+----
+
+CRYPTO_KHAZAD has a negligible effect on the binary size of the resulting kernel.
+In general, activating CRYPTO_KHAZAD increases the binary size by 8 MB (strong representativity score).
+
+----
+MODULE_FORCE_UNLOAD
+----
+
+MODULE_FORCE_UNLOAD has a negligible effect on the binary size of the resulting kernel.
+In general, activating MODULE_FORCE_UNLOAD reduces the binary size by -13 MB (weak representativity score).
+
+----
+IP_SET_HASH_NETPORT
+----
+
+IP_SET_HASH_NETPORT has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_SET_HASH_NETPORT increases the binary size by 19 MB (weak representativity score).
+
+----
+HISAX_NO_LLC
+----
+
+HISAX_NO_LLC has a negligible effect on the binary size of the resulting kernel.
+In general, activating HISAX_NO_LLC increases the binary size by 10 MB (weak representativity score).
+
+----
+UIO_NETX
+----
+
+UIO_NETX has a negligible effect on the binary size of the resulting kernel.
+In general, activating UIO_NETX increases the binary size by 18 MB (medium representativity score).
+
+----
+NFS_ACL_SUPPORT
+----
+
+NFS_ACL_SUPPORT has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFS_ACL_SUPPORT increases the binary size by 16 MB (weak representativity score).
+
+----
+CRYPTO_SALSA20
+----
+
+CRYPTO_SALSA20 has a negligible effect on the binary size of the resulting kernel.
+In general, activating CRYPTO_SALSA20 increases the binary size by 8 MB (strong representativity score).
+
+----
+IP_SET_HASH_NETIFACE
+----
+
+IP_SET_HASH_NETIFACE has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_SET_HASH_NETIFACE increases the binary size by 19 MB (weak representativity score).
+
+----
+QED_RDMA
+----
+
+QED_RDMA has a negligible effect on the binary size of the resulting kernel.
+In general, activating QED_RDMA increases the binary size by 25 MB (weak representativity score).
+
+----
+HISAX_NO_KEYPAD
+----
+
+HISAX_NO_KEYPAD has a negligible effect on the binary size of the resulting kernel.
+In general, activating HISAX_NO_KEYPAD increases the binary size by 8 MB (weak representativity score).
+
+----
+NFS_V3_ACL
+----
+
+NFS_V3_ACL has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFS_V3_ACL increases the binary size by 9 MB (weak representativity score).
+
+----
+CRYPTO_SALSA20_586
+----
+
+CRYPTO_SALSA20_586 has a negligible effect on the binary size of the resulting kernel.
+In general, activating CRYPTO_SALSA20_586 reduces the binary size by -13 MB (weak representativity score).
+
+----
+MODULE_SRCVERSION_ALL
+----
+
+MODULE_SRCVERSION_ALL has a negligible effect on the binary size of the resulting kernel.
+In general, activating MODULE_SRCVERSION_ALL reduces the binary size by -16 MB (medium representativity score).
+
+----
+IP_SET_LIST_SET
+----
+
+IP_SET_LIST_SET has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_SET_LIST_SET increases the binary size by 21 MB (weak representativity score).
+
+----
+HISAX_1TR6
+----
+
+HISAX_1TR6 has a negligible effect on the binary size of the resulting kernel.
+In general, activating HISAX_1TR6 increases the binary size by 13 MB (weak representativity score).
+
+----
+NET_VENDOR_QUALCOMM
+----
+
+NET_VENDOR_QUALCOMM has a negligible effect on the binary size of the resulting kernel.
+In general, activating NET_VENDOR_QUALCOMM increases the binary size by 13 MB (weak representativity score).
+
+----
+TYPEC
+----
+
+TYPEC has a negligible effect on the binary size of the resulting kernel.
+In general, activating TYPEC increases the binary size by 8 MB (medium representativity score).
+
+----
+NFS_V2
+----
+
+NFS_V2 has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFS_V2 increases the binary size by 17 MB (weak representativity score).
+
+----
+CRYPTO_SALSA20_X86_64
+----
+
+CRYPTO_SALSA20_X86_64 has a negligible effect on the binary size of the resulting kernel.
+In general, activating CRYPTO_SALSA20_X86_64 increases the binary size by 7 MB (strong representativity score).
+
+----
+MODULE_SIG
+----
+
+MODULE_SIG has a negligible effect on the binary size of the resulting kernel.
+In general, activating MODULE_SIG reduces the binary size by -16 MB (medium representativity score).
+
+----
+IP_VS_IPV6
+----
+
+IP_VS_IPV6 has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_VS_IPV6 increases the binary size by 13 MB (weak representativity score).
+
+----
+QCA7000
+----
+
+QCA7000 has a negligible effect on the binary size of the resulting kernel.
+In general, activating QCA7000 increases the binary size by 18 MB (weak representativity score).
+
+----
+HISAX_NI1
+----
+
+HISAX_NI1 has a negligible effect on the binary size of the resulting kernel.
+In general, activating HISAX_NI1 increases the binary size by 13 MB (weak representativity score).
+
+----
+TYPEC_WCOVE
+----
+
+TYPEC_WCOVE has a negligible effect on the binary size of the resulting kernel.
+In general, activating TYPEC_WCOVE increases the binary size by 23 MB (weak representativity score).
+
+----
+UIO_PRUSS
+----
+
+UIO_PRUSS has a negligible effect on the binary size of the resulting kernel.
+In general, activating UIO_PRUSS increases the binary size by 12 MB (medium representativity score).
+
+----
+NFS_V3
+----
+
+NFS_V3 has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFS_V3 increases the binary size by 18 MB (weak representativity score).
+
+----
+CRYPTO_CHACHA20_X86_64
+----
+
+CRYPTO_CHACHA20_X86_64 has a negligible effect on the binary size of the resulting kernel.
+In general, activating CRYPTO_CHACHA20_X86_64 increases the binary size by 8 MB (strong representativity score).
+
+----
+MODULE_SIG_FORCE
+----
+
+MODULE_SIG_FORCE has a negligible effect on the binary size of the resulting kernel.
+In general, activating MODULE_SIG_FORCE reduces the binary size by -14 MB (weak representativity score).
+
+----
+IP_VS_DEBUG
+----
+
+IP_VS_DEBUG has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_VS_DEBUG increases the binary size by 11 MB (weak representativity score).
+
+----
+QCA7000_SPI
+----
+
+QCA7000_SPI has a negligible effect on the binary size of the resulting kernel.
+In general, activating QCA7000_SPI increases the binary size by 16 MB (weak representativity score).
+
+----
+TYPEC_UCSI
+----
+
+TYPEC_UCSI has a negligible effect on the binary size of the resulting kernel.
+In general, activating TYPEC_UCSI increases the binary size by 8 MB (medium representativity score).
+
+----
+UIO_MF624
+----
+
+UIO_MF624 has a negligible effect on the binary size of the resulting kernel.
+In general, activating UIO_MF624 increases the binary size by 18 MB (medium representativity score).
+
+----
+NFS_V4
+----
+
+NFS_V4 has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFS_V4 increases the binary size by 19 MB (weak representativity score).
+
+----
+CRYPTO_SEED
+----
+
+CRYPTO_SEED has a negligible effect on the binary size of the resulting kernel.
+In general, activating CRYPTO_SEED increases the binary size by 8 MB (strong representativity score).
+
+----
+MODULE_SIG_ALL
+----
+
+MODULE_SIG_ALL has a negligible effect on the binary size of the resulting kernel.
+In general, activating MODULE_SIG_ALL reduces the binary size by -13 MB (weak representativity score).
+
+----
+QCA7000_UART
+----
+
+QCA7000_UART has a negligible effect on the binary size of the resulting kernel.
+In general, activating QCA7000_UART increases the binary size by 22 MB (weak representativity score).
+
+----
+UCSI_ACPI
+----
+
+UCSI_ACPI has a negligible effect on the binary size of the resulting kernel.
+In general, activating UCSI_ACPI increases the binary size by 21 MB (weak representativity score).
+
+----
+UIO_HV_GENERIC
+----
+
+UIO_HV_GENERIC has a negligible effect on the binary size of the resulting kernel.
+In general, activating UIO_HV_GENERIC increases the binary size by 21 MB (weak representativity score).
+
+----
+SUNRPC_GSS
+----
+
+SUNRPC_GSS has a negligible effect on the binary size of the resulting kernel.
+In general, activating SUNRPC_GSS increases the binary size by 17 MB (weak representativity score).
+
+----
+CRYPTO_SERPENT
+----
+
+CRYPTO_SERPENT has a negligible effect on the binary size of the resulting kernel.
+In general, activating CRYPTO_SERPENT increases the binary size by 12 MB (weak representativity score).
+
+----
+MODULE_SIG_SHA1
+----
+
+MODULE_SIG_SHA1 has a negligible effect on the binary size of the resulting kernel.
+In general, activating MODULE_SIG_SHA1 reduces the binary size by -16 MB (medium representativity score).
+
+----
+QCOM_EMAC
+----
+
+QCOM_EMAC has a negligible effect on the binary size of the resulting kernel.
+In general, activating QCOM_EMAC increases the binary size by 19 MB (weak representativity score).
+
+----
+HISAX_16_3
+----
+
+HISAX_16_3 has a negligible effect on the binary size of the resulting kernel.
+In general, activating HISAX_16_3 increases the binary size by 11 MB (weak representativity score).
+
+----
+USB_LED_TRIG
+----
+
+USB_LED_TRIG has a negligible effect on the binary size of the resulting kernel.
+In general, activating USB_LED_TRIG increases the binary size by 2 MB (medium representativity score).
+
+----
+VFIO_IOMMU_TYPE1
+----
+
+VFIO_IOMMU_TYPE1 has a negligible effect on the binary size of the resulting kernel.
+In general, activating VFIO_IOMMU_TYPE1 increases the binary size by 12 MB (weak representativity score).
+
+----
+NFS_SWAP
+----
+
+NFS_SWAP has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFS_SWAP increases the binary size by 11 MB (weak representativity score).
+
+----
+CRYPTO_SERPENT_SSE2_X86_64
+----
+
+CRYPTO_SERPENT_SSE2_X86_64 has a negligible effect on the binary size of the resulting kernel.
+In general, activating CRYPTO_SERPENT_SSE2_X86_64 increases the binary size by 7 MB (strong representativity score).
+
+----
+IP_VS_PROTO_TCP
+----
+
+IP_VS_PROTO_TCP has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_VS_PROTO_TCP increases the binary size by 8 MB (weak representativity score).
+
+----
+NET_VENDOR_REALTEK
+----
+
+NET_VENDOR_REALTEK has a negligible effect on the binary size of the resulting kernel.
+In general, activating NET_VENDOR_REALTEK increases the binary size by 15 MB (weak representativity score).
+
+----
+HISAX_TELESPCI
+----
+
+HISAX_TELESPCI has a negligible effect on the binary size of the resulting kernel.
+In general, activating HISAX_TELESPCI increases the binary size by 16 MB (weak representativity score).
+
+----
+UWB_I1480U
+----
+
+UWB_I1480U has a negligible effect on the binary size of the resulting kernel.
+In general, activating UWB_I1480U increases the binary size by 13 MB (weak representativity score).
+
+----
+VFIO
+----
+
+VFIO has a negligible effect on the binary size of the resulting kernel.
+In general, activating VFIO increases the binary size by 12 MB (weak representativity score).
+
+----
+SUNRPC_SWAP
+----
+
+SUNRPC_SWAP has a negligible effect on the binary size of the resulting kernel.
+In general, activating SUNRPC_SWAP increases the binary size by 11 MB (weak representativity score).
+
+----
+CRYPTO_SHA1
+----
+
+CRYPTO_SHA1 has a negligible effect on the binary size of the resulting kernel.
+In general, activating CRYPTO_SHA1 increases the binary size by 12 MB (weak representativity score).
+
+----
+CRYPTO_SERPENT_SSE2_586
+----
+
+CRYPTO_SERPENT_SSE2_586 has a negligible effect on the binary size of the resulting kernel.
+In general, activating CRYPTO_SERPENT_SSE2_586 reduces the binary size by -9 MB (weak representativity score).
+
+----
+IP_VS_PROTO_UDP
+----
+
+IP_VS_PROTO_UDP has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_VS_PROTO_UDP increases the binary size by 8 MB (weak representativity score).
+
+----
+ATP
+----
+
+ATP has a negligible effect on the binary size of the resulting kernel.
+In general, activating ATP increases the binary size by 22 MB (weak representativity score).
+
+----
+MMC_DEBUG
+----
+
+MMC_DEBUG has a negligible effect on the binary size of the resulting kernel.
+In general, activating MMC_DEBUG increases the binary size by 325 kB (medium representativity score).
+
+----
+NFS_V4_1
+----
+
+NFS_V4_1 has a negligible effect on the binary size of the resulting kernel.
+In general, activating NFS_V4_1 increases the binary size by 11 MB (weak representativity score).
+
+----
+CRYPTO_SERPENT_AVX_X86_64
+----
+
+CRYPTO_SERPENT_AVX_X86_64 has a negligible effect on the binary size of the resulting kernel.
+In general, activating CRYPTO_SERPENT_AVX_X86_64 increases the binary size by 10 MB (medium representativity score).
+
+----
+IP_VS_PROTO_AH_ESP
+----
+
+IP_VS_PROTO_AH_ESP has a negligible effect on the binary size of the resulting kernel.
+In general, activating IP_VS_PROTO_AH_ESP increases the binary size by 11 MB (weak representativity score).
+
